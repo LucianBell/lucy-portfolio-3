@@ -59,79 +59,121 @@ export default function HomePage() {
               <div className=" flex">
                 <li className=" xl: mr-2 mt-4">
                   <div className=" bg-color-gray py-4 border-2 rounded-md border-zinc-800 transition-transform duration-100 transform hover:-translate-y-2">
-                    <AiFillHtml5 className=" xl:text-5xl mx-4" />
+                    <a
+                      href="https://developer.mozilla.org/pt-BR/docs/Web/HTML"
+                      target="_blank"
+                    >
+                      <AiFillHtml5 className=" xl:text-5xl mx-4" />
+                    </a>
                   </div>
                 </li>
                 <li className=" xl: mr-2 mt-4">
                   <div className=" bg-color-gray py-4 border-2 rounded-md border-zinc-800 transition-transform duration-100 transform hover:-translate-y-2">
-                    <DiCss3 className=" xl:text-5xl mx-4" />
+                    <a
+                      href="https://developer.mozilla.org/pt-BR/docs/Web/CSS"
+                      target="_blank"
+                    >
+                      <DiCss3 className=" xl:text-5xl mx-4" />
+                    </a>
                   </div>
                 </li>
                 <li className=" xl: mr-2 mt-4">
                   <div className=" bg-color-gray py-4 border-2 rounded-md border-zinc-800 transition-transform duration-100 transform hover:-translate-y-2">
-                    <SiJavascript className=" xl:text-5xl mx-4" />
+                    <a
+                      href="https://developer.mozilla.org/pt-BR/docs/Web/JavaScript"
+                      target="_blank"
+                    >
+                      <SiJavascript className=" xl:text-5xl mx-4" />
+                    </a>
                   </div>
                 </li>
                 <li className=" xl: mr-2 mt-4">
                   <div className=" bg-color-gray py-4 border-2 rounded-md border-zinc-800 transition-transform duration-100 transform hover:-translate-y-2">
-                    <SiSass className=" xl:text-5xl mx-4" />
+                    <a href="https://sass-lang.com/" target="_blank">
+                      <SiSass className=" xl:text-5xl mx-4" />
+                    </a>
                   </div>
                 </li>
                 <li className=" xl: mr-2 mt-4">
                   <div className=" bg-color-gray py-4 border-2 rounded-md border-zinc-800 transition-transform duration-100 transform hover:-translate-y-2">
-                    <SiTailwindcss className=" xl:text-5xl mx-4" />
+                    <a href="https://tailwindcss.com/" target="_blank">
+                      <SiTailwindcss className=" xl:text-5xl mx-4" />
+                    </a>
                   </div>
                 </li>
                 <li className=" xl: mr-2 mt-4">
                   <div className=" bg-color-gray py-4 border-2 rounded-md border-zinc-800 transition-transform duration-100 transform hover:-translate-y-2">
-                    <SiTypescript className=" xl:text-5xl mx-4" />
+                    <a href="https://www.typescriptlang.org/" target="_blank">
+                      <SiTypescript className=" xl:text-5xl mx-4" />
+                    </a>
                   </div>
                 </li>
                 <li className=" xl: mr-2 mt-4">
                   <div className=" bg-color-gray py-4 border-2 rounded-md border-zinc-800 transition-transform duration-100 transform hover:-translate-y-2">
-                    <FaReact className=" xl:text-5xl mx-4" />
+                    <a href="https://react.dev/" target="_blank">
+                      <FaReact className=" xl:text-5xl mx-4" />
+                    </a>
                   </div>
                 </li>
                 <li className=" xl: mr-2 mt-4">
                   <div className=" bg-color-gray py-4 border-2 rounded-md border-zinc-800 transition-transform duration-100 transform hover:-translate-y-2">
-                    <FaNode className=" xl:text-5xl mx-4" />
+                    <a href="https://nodejs.org/en" target="_blank">
+                      <FaNode className=" xl:text-5xl mx-4" />
+                    </a>
                   </div>
                 </li>
               </div>
               <div className=" flex">
                 <li className=" xl: mr-2 mt-4">
                   <div className=" bg-color-gray py-4 border-2 rounded-md border-zinc-800 transition-transform duration-100 transform hover:-translate-y-2">
-                    <SiExpress className=" xl:text-5xl mx-4" />
+                    <a href="https://expressjs.com/" target="_blank">
+                      <SiExpress className=" xl:text-5xl mx-4" />
+                    </a>
                   </div>
                 </li>
                 <li className=" xl: mr-2 mt-4">
                   <div className=" bg-color-gray py-4 border-2 rounded-md border-zinc-800 transition-transform duration-100 transform hover:-translate-y-2">
-                    <FaJava className=" xl:text-5xl mx-4" />
+                    <a
+                      href="https://developer.oracle.com/languages/java.html"
+                      target="_blank"
+                    >
+                      <FaJava className=" xl:text-5xl mx-4" />
+                    </a>
                   </div>
                 </li>
                 <li className=" xl: mr-2 mt-4">
                   <div className=" bg-color-gray py-4 border-2 rounded-md border-zinc-800 transition-transform duration-100 transform hover:-translate-y-2">
-                    <SiSpring className=" xl:text-5xl mx-4" />
+                    <a href="https://spring.io/" target="_blank">
+                      <SiSpring className=" xl:text-5xl mx-4" />
+                    </a>
                   </div>
                 </li>
                 <li className=" xl: mr-2 mt-4">
                   <div className=" bg-color-gray py-4 border-2 rounded-md border-zinc-800 transition-transform duration-100 transform hover:-translate-y-2">
-                    <SiMysql className=" xl:text-5xl mx-4" />
+                    <a href="https://www.mysql.com/" target="_blank">
+                      <SiMysql className=" xl:text-5xl mx-4" />
+                    </a>
                   </div>
                 </li>
                 <li className=" xl: mr-2 mt-4">
                   <div className=" bg-color-gray py-4 border-2 rounded-md border-zinc-800 transition-transform duration-100 transform hover:-translate-y-2">
-                    <SiPostgresql className=" xl:text-5xl mx-4" />
+                    <a href="https://www.postgresql.org/" target="_blank">
+                      <SiPostgresql className=" xl:text-5xl mx-4" />
+                    </a>
                   </div>
                 </li>
                 <li className=" xl: mr-2 mt-4">
                   <div className=" bg-color-gray py-4 border-2 rounded-md border-zinc-800 transition-transform duration-100 transform hover:-translate-y-2">
-                    <SiMongodb className=" xl:text-5xl mx-4" />
+                    <a href="https://www.mongodb.com/" target="_blank">
+                      <SiMongodb className=" xl:text-5xl mx-4" />
+                    </a>
                   </div>
                 </li>
                 <li className=" xl: mr-2 mt-4">
                   <div className=" bg-color-gray py-4 border-2 rounded-md border-zinc-800 transition-transform duration-100 transform hover:-translate-y-2">
-                    <SiGit className=" xl:text-5xl mx-4" />
+                    <a href="https://git-scm.com/" target="_blank">
+                      <SiGit className=" xl:text-5xl mx-4" />
+                    </a>
                   </div>
                 </li>
                 <li className=" xl: mr-2 mt-4">
