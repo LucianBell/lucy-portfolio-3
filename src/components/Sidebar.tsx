@@ -4,7 +4,7 @@ import { GiCheckMark } from "react-icons/gi";
 import { AiFillRocket } from "react-icons/ai";
 import { SiNounproject } from "react-icons/si";
 import { TbCertificate } from "react-icons/tb";
-import { MdOutlineArticle } from "react-icons/md";
+import { MdOutlineArticle, MdOutlineClose } from "react-icons/md";
 
 type props = {
   open: boolean;
@@ -39,11 +39,11 @@ export default function Sidebar({ open, onClose }: props) {
                 </div>
               </div>
               <div>
-                <button className=" text-white">
-                  <GrClose
+                <button onClick={onClose} className=" text-white">
+                  <MdOutlineClose
                     width={100}
                     height={100}
-                    className=" bg-zinc-400 rounded p-2 text-3xl md:hidden"
+                    className=" rounded p-2 text-5xl md:hidden"
                   />
                 </button>
               </div>
