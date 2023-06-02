@@ -7,6 +7,11 @@ import {
   SiExpress,
   SiTailwindcss,
   SiSpring,
+  SiMysql,
+  SiPostgresql,
+  SiMongodb,
+  SiGit,
+  SiGooglecloud,
 } from "react-icons/si";
 import { FaReact, FaNode, FaJava } from "react-icons/fa";
 
@@ -50,62 +55,93 @@ export default function HomePage() {
           <h3>Programming Languages and Tools</h3>
 
           <div>
-            <ul>
-              <li>
-                <div>
-                  <AiFillHtml5 />
-                </div>
-              </li>
-              <li>
-                <div>
-                  <DiCss3 />
-                </div>
-              </li>
-              <li>
-                <div>
-                  <SiJavascript />
-                </div>
-              </li>
-              <li>
-                <div>
-                  <SiSass />
-                </div>
-              </li>
-              <li>
-                <div>
-                  <SiTailwindcss />
-                </div>
-              </li>
-              <li>
-                <div>
-                  <SiTypescript />
-                </div>
-              </li>
-              <li>
-                <div>
-                  <FaReact />
-                </div>
-              </li>
-              <li>
-                <div>
-                  <FaNode />
-                </div>
-              </li>
-              <li>
-                <div>
-                  <SiExpress />
-                </div>
-              </li>
-              <li>
-                <div>
-                  <FaJava />
-                </div>
-              </li>
-              <li>
-                <div>
-                  <SiSpring />
-                </div>
-              </li>
+            <ul className=" block">
+              <div className=" flex">
+                <li className=" xl: mr-2 mt-4">
+                  <div className=" bg-color-gray py-4 border-2 rounded-md border-zinc-800 transition-transform duration-100 transform hover:-translate-y-2">
+                    <AiFillHtml5 className=" xl:text-5xl mx-4" />
+                  </div>
+                </li>
+                <li className=" xl: mr-2 mt-4">
+                  <div className=" bg-color-gray py-4 border-2 rounded-md border-zinc-800 transition-transform duration-100 transform hover:-translate-y-2">
+                    <DiCss3 className=" xl:text-5xl mx-4" />
+                  </div>
+                </li>
+                <li className=" xl: mr-2 mt-4">
+                  <div className=" bg-color-gray py-4 border-2 rounded-md border-zinc-800 transition-transform duration-100 transform hover:-translate-y-2">
+                    <SiJavascript className=" xl:text-5xl mx-4" />
+                  </div>
+                </li>
+                <li className=" xl: mr-2 mt-4">
+                  <div className=" bg-color-gray py-4 border-2 rounded-md border-zinc-800 transition-transform duration-100 transform hover:-translate-y-2">
+                    <SiSass className=" xl:text-5xl mx-4" />
+                  </div>
+                </li>
+                <li className=" xl: mr-2 mt-4">
+                  <div className=" bg-color-gray py-4 border-2 rounded-md border-zinc-800 transition-transform duration-100 transform hover:-translate-y-2">
+                    <SiTailwindcss className=" xl:text-5xl mx-4" />
+                  </div>
+                </li>
+                <li className=" xl: mr-2 mt-4">
+                  <div className=" bg-color-gray py-4 border-2 rounded-md border-zinc-800 transition-transform duration-100 transform hover:-translate-y-2">
+                    <SiTypescript className=" xl:text-5xl mx-4" />
+                  </div>
+                </li>
+                <li className=" xl: mr-2 mt-4">
+                  <div className=" bg-color-gray py-4 border-2 rounded-md border-zinc-800 transition-transform duration-100 transform hover:-translate-y-2">
+                    <FaReact className=" xl:text-5xl mx-4" />
+                  </div>
+                </li>
+                <li className=" xl: mr-2 mt-4">
+                  <div className=" bg-color-gray py-4 border-2 rounded-md border-zinc-800 transition-transform duration-100 transform hover:-translate-y-2">
+                    <FaNode className=" xl:text-5xl mx-4" />
+                  </div>
+                </li>
+              </div>
+              <div className=" flex">
+                <li className=" xl: mr-2 mt-4">
+                  <div className=" bg-color-gray py-4 border-2 rounded-md border-zinc-800 transition-transform duration-100 transform hover:-translate-y-2">
+                    <SiExpress className=" xl:text-5xl mx-4" />
+                  </div>
+                </li>
+                <li className=" xl: mr-2 mt-4">
+                  <div className=" bg-color-gray py-4 border-2 rounded-md border-zinc-800 transition-transform duration-100 transform hover:-translate-y-2">
+                    <FaJava className=" xl:text-5xl mx-4" />
+                  </div>
+                </li>
+                <li className=" xl: mr-2 mt-4">
+                  <div className=" bg-color-gray py-4 border-2 rounded-md border-zinc-800 transition-transform duration-100 transform hover:-translate-y-2">
+                    <SiSpring className=" xl:text-5xl mx-4" />
+                  </div>
+                </li>
+                <li className=" xl: mr-2 mt-4">
+                  <div className=" bg-color-gray py-4 border-2 rounded-md border-zinc-800 transition-transform duration-100 transform hover:-translate-y-2">
+                    <SiMysql className=" xl:text-5xl mx-4" />
+                  </div>
+                </li>
+                <li className=" xl: mr-2 mt-4">
+                  <div className=" bg-color-gray py-4 border-2 rounded-md border-zinc-800 transition-transform duration-100 transform hover:-translate-y-2">
+                    <SiPostgresql className=" xl:text-5xl mx-4" />
+                  </div>
+                </li>
+                <li className=" xl: mr-2 mt-4">
+                  <div className=" bg-color-gray py-4 border-2 rounded-md border-zinc-800 transition-transform duration-100 transform hover:-translate-y-2">
+                    <SiMongodb className=" xl:text-5xl mx-4" />
+                  </div>
+                </li>
+                <li className=" xl: mr-2 mt-4">
+                  <div className=" bg-color-gray py-4 border-2 rounded-md border-zinc-800 transition-transform duration-100 transform hover:-translate-y-2">
+                    <SiGit className=" xl:text-5xl mx-4" />
+                  </div>
+                </li>
+                <li className=" xl: mr-2 mt-4">
+                  <div className=" bg-color-gray py-4 border-2 rounded-md border-zinc-800 transition-transform duration-100 transform hover:-translate-y-2">
+                    <a href="https://cloud.google.com/" target="_blank">
+                      <SiGooglecloud className=" xl:text-5xl mx-4" />
+                    </a>
+                  </div>
+                </li>
+              </div>
             </ul>
           </div>
         </div>
