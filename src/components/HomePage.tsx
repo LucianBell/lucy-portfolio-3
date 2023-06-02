@@ -38,6 +38,53 @@ export default function HomePage() {
             the world is really important to me, so let's do that together.
           </p>
         </div>
+
+        <div>
+          <h3>Programming Languages and Tools</h3>
+
+          <div>
+            <ul>
+              <li>
+                <div>
+                  <AiFillHtml5 />
+                </div>
+              </li>
+              <li>
+                <div>
+                  <DiCss3 />
+                </div>
+              </li>
+              <li>
+                <div>
+                  <SiJavascript />
+                </div>
+              </li>
+              <li>
+                <div>
+                  <SiSass />
+                </div>
+              </li>
+              <li>
+                <div>
+                  <SiTypescript />
+                </div>
+              </li>
+              <li>
+                <div>
+                  <FaReact />
+                </div>
+              </li>
+              <li>
+                <div>
+                  <FaNode />
+                </div>
+              </li>
+              <li></li>
+              <li></li>
+              <li></li>
+            </ul>
+          </div>
+        </div>
       </div>
     </>
   );
