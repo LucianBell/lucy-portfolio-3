@@ -15,7 +15,7 @@ export default function Sidebar({ open, onClose }: props) {
   const style = { color: "white" };
   return (
     <section
-      className={` fixed z-30 top-0 bottom-0 right-0 text-white ${
+      className={` fixed z-30 top-0 bottom-0 right-0 text-white transition-all duration-120 ${
         open ? "w-screen bg-color-black" : "w-0"
       } md:w-[260px] md:left-0 md:bg-color-gray md:border-r-2 md:border-zinc-800 z-50`}
     >
@@ -54,41 +54,46 @@ export default function Sidebar({ open, onClose }: props) {
               <li className=" mb-10">
                 <a
                   href=""
-                  className=" flex justify-between bg-color-btn-gray border-color-light-gray border-2 rounded-2xl p-2 font-extralight tracking-wider uppercase transition-all duration-120 hover:bg-color-gray"
+                  className=" group flex justify-between rounded-2xl p-2 font-extralight tracking-wider uppercase transition-all duration-120 hover:bg-color-btn-gray"
                 >
-                  <AiFillRocket className=" text-2xl" /> Experience
+                  <AiFillRocket className=" text-2xl transition-all duration-120 group-hover:scale-110" />{" "}
+                  Experience
                 </a>
               </li>
               <li className=" mb-10">
                 <a
                   href=""
-                  className=" flex justify-between bg-color-btn-gray border-color-light-gray border-2 rounded-2xl p-2 font-extralight tracking-wider uppercase transition-all duration-120 hover:bg-color-gray"
+                  className=" group flex justify-between rounded-2xl p-2 font-extralight tracking-wider uppercase transition-all duration-120 hover:bg-color-btn-gray"
                 >
-                  <SiNounproject className=" text-2xl" /> Projects
+                  <SiNounproject className=" text-2xl transition-all duration-120 group-hover:scale-110" />{" "}
+                  Projects
                 </a>
               </li>
               <li className=" mb-10">
                 <a
                   href=""
-                  className=" flex justify-between bg-color-btn-gray border-color-light-gray border-2 rounded-2xl p-2 font-extralight tracking-wider uppercase transition-all duration-120 hover:bg-color-gray"
+                  className=" group flex justify-between rounded-2xl p-2 font-extralight tracking-wider uppercase transition-all duration-120 hover:bg-color-btn-gray"
                 >
-                  <TbCertificate className=" text-2xl" /> Certifications
+                  <TbCertificate className=" text-2xl transition-all duration-120 group-hover:scale-110" />
+                  Certifications
                 </a>
               </li>
               <li className=" mb-10">
                 <a
                   href=""
-                  className=" flex justify-between bg-color-btn-gray border-color-light-gray border-2 rounded-2xl p-2 font-extralight tracking-wider uppercase transition-all duration-120 hover:bg-color-gray"
+                  className=" group flex justify-between rounded-2xl p-2 font-extralight tracking-wider uppercase transition-all duration-120 hover:bg-color-btn-gray"
                 >
-                  <MdOutlineArticle className=" text-2xl" /> Articles
+                  <MdOutlineArticle className=" text-2xl transition-all duration-120 group-hover:scale-110" />{" "}
+                  Articles
                 </a>
               </li>
               <li className=" mb-10">
                 <a
                   href=""
-                  className=" flex justify-between bg-color-btn-gray border-color-light-gray border-2 rounded-2xl p-2 font-extralight tracking-wider uppercase transition-all duration-120 hover:bg-color-gray"
+                  className=" group flex justify-between rounded-2xl p-2 font-extralight tracking-wider uppercase transition-all duration-120 hover:bg-color-btn-gray"
                 >
-                  <GiCheckMark className=" text-2xl" /> Hire me
+                  <GiCheckMark className=" text-2xl transition-all duration-120 group-hover:scale-110" />{" "}
+                  Hire me
                 </a>
               </li>
             </ul>

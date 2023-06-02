@@ -22,7 +22,7 @@ module.exports = {
       },
       colors: {
         "color-black": "#121212",
-        "color-btn-gray": "#272727",
+        "color-btn-gray": "#313438",
         "color-gray": "#141415",
         "color-light-gray": "#6B717B",
       },
