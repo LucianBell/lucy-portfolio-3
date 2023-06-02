@@ -1,7 +1,14 @@
 import { AiOutlineSmile, AiFillHtml5 } from "react-icons/ai";
 import { DiCss3 } from "react-icons/di";
-import { SiJavascript, SiTypescript, SiSass } from "react-icons/si";
-import { FaReact, FaNode } from "react-icons/fa";
+import {
+  SiJavascript,
+  SiTypescript,
+  SiSass,
+  SiExpress,
+  SiTailwindcss,
+  SiSpring,
+} from "react-icons/si";
+import { FaReact, FaNode, FaJava } from "react-icons/fa";
 
 export default function HomePage() {
   return (
@@ -66,6 +73,11 @@ export default function HomePage() {
               </li>
               <li>
                 <div>
+                  <SiTailwindcss />
+                </div>
+              </li>
+              <li>
+                <div>
                   <SiTypescript />
                 </div>
               </li>
@@ -79,9 +91,21 @@ export default function HomePage() {
                   <FaNode />
                 </div>
               </li>
-              <li></li>
-              <li></li>
-              <li></li>
+              <li>
+                <div>
+                  <SiExpress />
+                </div>
+              </li>
+              <li>
+                <div>
+                  <FaJava />
+                </div>
+              </li>
+              <li>
+                <div>
+                  <SiSpring />
+                </div>
+              </li>
             </ul>
           </div>
         </div>
