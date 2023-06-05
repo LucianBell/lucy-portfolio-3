@@ -71,13 +71,13 @@ export default function Sidebar({ open, onClose }: props) {
                 </Link>
               </li>
               <li className=" mb-10">
-                <a
-                  href=""
+                <Link
+                  href="/projects"
                   className=" group flex justify-between rounded-2xl p-2 font-extralight tracking-wider uppercase transition-all duration-120 hover:bg-color-btn-gray"
                 >
                   <SiNounproject className=" text-2xl transition-all duration-120 group-hover:scale-110" />{" "}
                   Projects
-                </a>
+                </Link>
               </li>
               <li className=" mb-10">
                 <a
