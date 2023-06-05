@@ -1,7 +1,7 @@
 import Image from "next/image";
 import { GrClose } from "react-icons/gr";
 import { GiCheckMark } from "react-icons/gi";
-import { AiFillRocket } from "react-icons/ai";
+import { AiFillRocket, AiFillHome } from "react-icons/ai";
 import { SiNounproject } from "react-icons/si";
 import { TbCertificate } from "react-icons/tb";
 import { MdOutlineArticle, MdOutlineClose } from "react-icons/md";
@@ -49,8 +49,17 @@ export default function Sidebar({ open, onClose }: props) {
               </div>
             </div>
           </div>
-          <div className=" mt-32 p-2">
+          <div className=" mt-24 p-2">
             <ul>
+              <li className=" mb-10">
+                <a
+                  href=""
+                  className=" group flex justify-between rounded-2xl p-2 font-extralight tracking-wider uppercase transition-all duration-120 hover:bg-color-btn-gray"
+                >
+                  <AiFillHome className=" text-2xl transition-all duration-120 group-hover:scale-110" />{" "}
+                  Home
+                </a>
+              </li>
               <li className=" mb-10">
                 <a
                   href=""
