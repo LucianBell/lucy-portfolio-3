@@ -5,6 +5,7 @@ import { AiFillRocket, AiFillHome } from "react-icons/ai";
 import { SiNounproject } from "react-icons/si";
 import { TbCertificate } from "react-icons/tb";
 import { MdOutlineArticle, MdOutlineClose } from "react-icons/md";
+import Link from "next/link";
 
 type props = {
   open: boolean;
@@ -53,7 +54,7 @@ export default function Sidebar({ open, onClose }: props) {
             <ul>
               <li className=" mb-10">
                 <a
-                  href=""
+                  href="/"
                   className=" group flex justify-between rounded-2xl p-2 font-extralight tracking-wider uppercase transition-all duration-120 hover:bg-color-btn-gray"
                 >
                   <AiFillHome className=" text-2xl transition-all duration-120 group-hover:scale-110" />{" "}
@@ -61,13 +62,13 @@ export default function Sidebar({ open, onClose }: props) {
                 </a>
               </li>
               <li className=" mb-10">
-                <a
-                  href=""
+                <Link
+                  href="/experience"
                   className=" group flex justify-between rounded-2xl p-2 font-extralight tracking-wider uppercase transition-all duration-120 hover:bg-color-btn-gray"
                 >
                   <AiFillRocket className=" text-2xl transition-all duration-120 group-hover:scale-110" />{" "}
                   Experience
-                </a>
+                </Link>
               </li>
               <li className=" mb-10">
                 <a
