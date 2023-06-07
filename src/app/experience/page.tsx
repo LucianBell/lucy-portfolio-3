@@ -10,6 +10,7 @@ import {
 } from "react-vertical-timeline-component";
 import "react-vertical-timeline-component/style.min.css";
 import LalaComponent from "@/components/LalaComponent";
+import LawComponent from "@/components/LawComponent";
 
 export default function Experience() {
   const [sidebarOpened, setSidebarOpened] = useState(false);
@@ -82,11 +83,11 @@ export default function Experience() {
             contentStyle={{ background: "rgb(49, 52, 56)", color: "#fff" }}
             contentArrowStyle={{ borderRight: "7px solid  rgb(49, 52, 56)" }}
             date="2018 - 2022"
-            icon={<LalaComponent />}
+            icon={<LawComponent />}
             iconStyle={{
               background: "rgb(20, 20, 21)",
               color: "#fff",
-              padding: "10px",
+              padding: "12px",
             }}
           >
             <h3 className="vertical-timeline-element-title">IT Analyst</h3>
