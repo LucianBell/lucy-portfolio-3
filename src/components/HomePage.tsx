@@ -14,6 +14,7 @@ import {
   SiGooglecloud,
 } from "react-icons/si";
 import { FaReact, FaNode, FaJava } from "react-icons/fa";
+import Image from "next/image";
 
 export default function HomePage() {
   return (
@@ -53,6 +54,13 @@ export default function HomePage() {
 
         <div>
           <h3>Programming Languages and Tools</h3>
+
+          <Image
+            src="/project-images/myPokedexImg.png"
+            width={300}
+            height={300}
+            alt="img"
+          />
 
           <div>
             <ul className=" block">
