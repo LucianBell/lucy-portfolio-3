@@ -54,14 +54,6 @@ export default function HomePage() {
 
         <div>
           <h3>Programming Languages and Tools</h3>
-
-          <Image
-            src="/project-images/myPokedexImg.png"
-            width={300}
-            height={300}
-            alt="img"
-          />
-
           <div>
             <ul className=" block">
               <div className=" flex">
