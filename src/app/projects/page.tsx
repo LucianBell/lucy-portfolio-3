@@ -20,7 +20,7 @@ export default async function page() {
   const myPokedexImg = myPokedexImage;
 
   const content = (
-    <section className=" grid grid-cols-4 grid-rows-5 gap-4">
+    <section className=" ml-72 mr-8 grid grid-cols-3 grid-rows-3 gap-4">
       {projects.map((project) => {
         const isDeployed = (deployed: boolean) => {
           if (deployed == true) {
@@ -64,6 +64,8 @@ export default async function page() {
 
   return (
     <>
+      <h2 className=" mx-72 text-xl">Let me show you some of my...</h2>
+      <h1 className=" mx-72 my-3 text-7xl">Projects</h1>
       <div className=" flex">{[content]}</div>
     </>
   );

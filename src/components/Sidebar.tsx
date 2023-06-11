@@ -81,7 +81,7 @@ export default function Sidebar({ open, onClose }: props) {
               </li>
               <li className=" mb-10">
                 <a
-                  href=""
+                  href="/certifications"
                   className=" group flex justify-between rounded-2xl p-2 font-extralight tracking-wider uppercase transition-all duration-120 hover:bg-color-btn-gray"
                 >
                   <TbCertificate className=" text-2xl transition-all duration-120 group-hover:scale-110" />
@@ -90,7 +90,7 @@ export default function Sidebar({ open, onClose }: props) {
               </li>
               <li className=" mb-10">
                 <a
-                  href=""
+                  href="/articles"
                   className=" group flex justify-between rounded-2xl p-2 font-extralight tracking-wider uppercase transition-all duration-120 hover:bg-color-btn-gray"
                 >
                   <MdOutlineArticle className=" text-2xl transition-all duration-120 group-hover:scale-110" />{" "}
