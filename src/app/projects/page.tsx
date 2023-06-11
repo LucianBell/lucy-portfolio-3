@@ -6,8 +6,6 @@ import Header from "@/components/Header";
 import Sidebar from "@/components/Sidebar";
 import getAllProjectsAPI from "../../../lib/getAllProjectsAPI";
 import Link from "next/link";
-import Image from "next/image";
-import { link } from "fs";
 
 export default async function page() {
   //const [sidebarOpened, setSidebarOpened] = useState(false);
@@ -22,11 +20,7 @@ export default async function page() {
   const myPokedexImg = myPokedexImage;
 
   const content = (
-    <section>
-      <h2>
-        <Link href="/">Back to home</Link>
-      </h2>
-      <br />
+    <section className=" grid grid-cols-4 grid-rows-5 gap-4">
       {projects.map((project) => {
         const isDeployed = (deployed: boolean) => {
           if (deployed == true) {
@@ -43,11 +37,11 @@ export default async function page() {
         return (
           <>
             <div className=" bg-color-gray border border-color-light-gray rounded-lg">
-              <div className=" max-w-fit">
+              <div className="">
                 <img
                   src={project.image}
                   alt="Project image"
-                  className=" w-2/6 rounded grayscale transition-all duration-200 hover:filter-none"
+                  className=" rounded-lg grayscale transition-all duration-200 hover:filter-none"
                 />
               </div>
               <div className=" p-6">
@@ -62,7 +56,6 @@ export default async function page() {
                 </div>
               </div>
             </div>
-            <br />
           </>
         );
       })}
@@ -71,9 +64,7 @@ export default async function page() {
 
   return (
     <>
-      <div className=" grid-cols-3">
-        <div className=" grid-cols-2">{[content]}</div>
-      </div>
+      <div className=" flex">{[content]}</div>
     </>
   );
 }
