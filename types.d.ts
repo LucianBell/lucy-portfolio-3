@@ -7,3 +7,10 @@ type Project = {
   isDeployed: boolean;
   deployedLink: string;
 };
+
+type Article = {
+  canonical_url: string;
+  cover_image: string;
+  created_at: string;
+  title: string;
+};
