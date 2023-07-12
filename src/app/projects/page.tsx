@@ -8,11 +8,6 @@ import getAllProjectsAPI from "../../../lib/getAllProjectsAPI";
 import Link from "next/link";
 
 export default async function page() {
-  //const [sidebarOpened, setSidebarOpened] = useState(false);
-  //
-  //const openSidebar = () => setSidebarOpened(true);
-  //const closeSidebar = () => setSidebarOpened(false);
-  //
   const projectsData: Promise<Project[]> = getAllProjectsAPI();
 
   const projects = await projectsData;
@@ -20,7 +15,7 @@ export default async function page() {
   const myPokedexImg = myPokedexImage;
 
   const content = (
-    <section className=" ml-72 mr-8 grid grid-cols-3 grid-rows-3 gap-4">
+    <section className=" mr-8 grid grid-cols-3 grid-rows-3 gap-4">
       {projects.map((project) => {
         const isDeployed = (deployed: boolean) => {
           if (deployed == true) {
@@ -64,9 +59,11 @@ export default async function page() {
 
   return (
     <>
-      <h2 className=" mx-72 text-xl">Let me show you some of my...</h2>
-      <h1 className=" mx-72 my-3 text-7xl">Projects</h1>
-      <div className=" flex">{[content]}</div>
+      <section className=" ml-72">
+        <h2 className=" text-xl">Let me show you some of my...</h2>
+        <h1 className=" my-3 text-7xl">Projects</h1>
+        <div className=" flex">{[content]}</div>
+      </section>
     </>
   );
 }

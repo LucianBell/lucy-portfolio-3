@@ -27,7 +27,7 @@ export default function HomePage() {
         </div>
 
         <div className=" bg-color-gray border-2 rounded-md border-zinc-800 xl: my-5 p-2">
-          <h3 className=" xl: mb-2 text-lg">Who am I?</h3>
+          <h3 className=" xl: mb-2 text-xl">Who am I?</h3>
           <p>
             I am a talented and experienced programmer with a passion for
             fullstack development. With around 3 proud years of programming
