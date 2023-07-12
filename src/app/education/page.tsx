@@ -12,10 +12,12 @@ import { FaGraduationCap } from "react-icons/fa";
 export default function page() {
   return (
     <>
-      <h2 className=" mx-72 text-xl">Let me tell you about...</h2>
-      <div className=" flex items-center">
-        <h1 className=" ml-72 my-3 text-6xl">My Education</h1>
-        <FaGraduationCap className=" ml-4 pt-2 text-5xl" />
+      <div className=" mx-80 my-10">
+        <h2 className=" text-base mt-10">Let me tell you about...</h2>
+        <div className=" flex items-center">
+          <h1 className=" text-6xl">My Education</h1>
+          <FaGraduationCap className=" ml-4 pt-2 text-5xl" />
+        </div>
       </div>
 
       <div className=" ml-80">
