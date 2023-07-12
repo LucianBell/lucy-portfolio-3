@@ -1,5 +1,3 @@
-import React from "react";
-
 export default async function getAllCertificationsAPI() {
   const response = await fetch(
     "https://personal-api-v1.onrender.com/api/certifications",

@@ -3,8 +3,8 @@ import { GrClose } from "react-icons/gr";
 import { GiCheckMark } from "react-icons/gi";
 import { AiFillRocket, AiFillHome } from "react-icons/ai";
 import { SiNounproject } from "react-icons/si";
-import { TbCertificate } from "react-icons/tb";
 import { MdOutlineArticle, MdOutlineClose } from "react-icons/md";
+import { FaGraduationCap } from "react-icons/fa";
 import Link from "next/link";
 
 type props = {
@@ -81,11 +81,11 @@ export default function Sidebar({ open, onClose }: props) {
               </li>
               <li className=" mb-10">
                 <a
-                  href="/certifications"
+                  href="/education"
                   className=" group flex justify-between rounded-2xl p-2 font-extralight tracking-wider uppercase transition-all duration-120 hover:bg-color-btn-gray"
                 >
-                  <TbCertificate className=" text-2xl transition-all duration-120 group-hover:scale-110" />
-                  Certifications
+                  <FaGraduationCap className=" text-2xl transition-all duration-120 group-hover:scale-110" />
+                  Education
                 </a>
               </li>
               <li className=" mb-10">

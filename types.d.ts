@@ -32,3 +32,16 @@ type Article = {
   published_timestamp: string;
   reading_time_minutes: number;
 };
+
+type Certifications = {
+  array: Array<Certification>;
+};
+
+type Certification = {
+  image: string;
+  title: string;
+  origin: string;
+  date: string;
+  link: string;
+  stared: boolean;
+};

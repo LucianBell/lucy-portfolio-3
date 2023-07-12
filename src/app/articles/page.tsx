@@ -1,7 +1,7 @@
 import React from "react";
 import getDevToPosts from "../../../lib/getDevToPosts";
 import Link from "next/link";
-import { FaExternalLinkSquareAlt } from "react-icons/fa";
+import { MdOutlineArticle } from "react-icons/md";
 
 export default async function page() {
   const articlesData: Promise<Article[]> = getDevToPosts();
@@ -9,7 +9,7 @@ export default async function page() {
   const articles = await articlesData;
 
   const content = (
-    <section className=" ml-72 mr-8 grid grid-cols-3 grid-rows-3 gap-4">
+    <section className=" mr-8 grid grid-cols-3 grid-rows-3 gap-4">
       {articles.map((article) => {
         const smallDate = (date: string) => {
           const correctData = date.slice(0, 10);
@@ -55,9 +55,15 @@ export default async function page() {
 
   return (
     <>
-      <h2 className=" mx-72 text-xl">Let me show you some of my...</h2>
-      <h1 className=" mx-72 my-3 text-7xl">Articles</h1>
-      <div className=" flex">{[content]}</div>
+      <section className=" ml-80">
+        <h2 className=" text-xl mt-10">Let me show you some of my...</h2>
+        <div className=" flex items-center mb-8">
+          <h1 className=" text-6xl">Articles</h1>
+          <MdOutlineArticle className="  ml-4 p-1 text-5xl" />
+        </div>
+
+        <div className=" flex">{[content]}</div>
+      </section>
     </>
   );
 }
