@@ -121,6 +121,8 @@ export default function page() {
             </a>
           </div>
         </div>
+
+        <h2>The Galery of Your Future Employee</h2>
       </section>
     </>
   );
