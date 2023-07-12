@@ -1,9 +1,5 @@
 "use client";
 
-import { useState, ReactNode } from "react";
-import Sidebar from "@/components/Sidebar";
-import Header from "@/components/Header";
-import { BsFillRocketTakeoffFill } from "react-icons/bs";
 import {
   VerticalTimeline,
   VerticalTimelineElement,
