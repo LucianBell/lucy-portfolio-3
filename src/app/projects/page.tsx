@@ -1,8 +1,7 @@
 import { AiFillGithub } from "react-icons/ai";
 import { FaExternalLinkSquareAlt } from "react-icons/fa";
 import myPokedexImage from "../../../public/project-images/myPokedexImg.png";
-import { useState } from "react";
-import Header from "@/components/Header";
+import { SiNounproject } from "react-icons/si";
 import Sidebar from "@/components/Sidebar";
 import getAllProjectsAPI from "../../../lib/getAllProjectsAPI";
 import Link from "next/link";
@@ -59,9 +58,12 @@ export default async function page() {
 
   return (
     <>
-      <section className=" ml-72">
-        <h2 className=" text-xl">Let me show you some of my...</h2>
-        <h1 className=" my-3 text-7xl">Projects</h1>
+      <section className=" ml-72 my-10">
+        <h2 className=" text-base">Let me show you some of my...</h2>
+        <div className=" flex items-end mb-10">
+          <h1 className=" text-6xl">Projects</h1>
+          <SiNounproject className=" ml-4 text-5xl" />
+        </div>
         <div className=" flex">{[content]}</div>
       </section>
     </>
