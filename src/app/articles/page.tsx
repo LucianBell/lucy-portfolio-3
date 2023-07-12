@@ -56,10 +56,12 @@ export default async function page() {
   return (
     <>
       <section className=" ml-80">
-        <h2 className=" text-xl mt-10">Let me show you some of my...</h2>
-        <div className=" flex items-center mb-8">
-          <h1 className=" text-6xl">Articles</h1>
-          <MdOutlineArticle className="  ml-4 p-1 text-5xl" />
+        <div className=" my-10">
+          <h2 className=" text-base">Let me show you some of my...</h2>
+          <div className=" flex items-end">
+            <h1 className=" text-6xl">Articles</h1>
+            <MdOutlineArticle className="  ml-4 p-1 text-5xl" />
+          </div>
         </div>
 
         <div className=" flex">{[content]}</div>
