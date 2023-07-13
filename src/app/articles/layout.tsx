@@ -1,10 +1,11 @@
 "use client";
+
 import React from "react";
 import Header from "@/components/Header";
 import Sidebar from "@/components/Sidebar";
 import { useState } from "react";
 
-export default function layout({
+export default function Layout({
   children, // will be a page or nested layout
 }: {
   children: React.ReactNode;
