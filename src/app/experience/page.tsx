@@ -44,10 +44,10 @@ export default function Experience() {
               padding: "10px",
             }}
           >
-            <h3 className="vertical-timeline-element-title">
+            <h3 className="vertical-timeline-element-title font-bold">
               Data-Team Member
             </h3>
-            <h4 className="vertical-timeline-element-subtitle">
+            <h4 className="vertical-timeline-element-subtitle italic">
               Medelin - Colômbia (Remotely)
             </h4>
             <p>
@@ -67,10 +67,10 @@ export default function Experience() {
               padding: "10px",
             }}
           >
-            <h3 className="vertical-timeline-element-title">
+            <h3 className="vertical-timeline-element-title font-bold">
               Care Guide Member
             </h3>
-            <h4 className="vertical-timeline-element-subtitle">
+            <h4 className="vertical-timeline-element-subtitle italic">
               Medelin - Colômbia (Remotely)
             </h4>
             <p>
@@ -90,8 +90,10 @@ export default function Experience() {
               padding: "12px",
             }}
           >
-            <h3 className="vertical-timeline-element-title">IT Analyst</h3>
-            <h4 className="vertical-timeline-element-subtitle">
+            <h3 className="vertical-timeline-element-title font-bold">
+              IT Analyst
+            </h3>
+            <h4 className="vertical-timeline-element-subtitle italic">
               Giruá - Brasil
             </h4>
             <p>

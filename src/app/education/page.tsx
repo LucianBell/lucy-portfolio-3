@@ -36,7 +36,7 @@ export default function page() {
               padding: "11px",
             }}
           >
-            <h3 className="vertical-timeline-element-title">
+            <h3 className="vertical-timeline-element-title font-bold">
               The University Of Akron
             </h3>
             <h4 className="vertical-timeline-element-subtitle italic">
@@ -59,7 +59,7 @@ export default function page() {
               padding: "11px",
             }}
           >
-            <h3 className="vertical-timeline-element-title">
+            <h3 className="vertical-timeline-element-title font-bold">
               Universidade Regional Integrada do Alto do Uruguai e das Missões
             </h3>
             <h4 className="vertical-timeline-element-subtitle italic">
@@ -82,7 +82,7 @@ export default function page() {
               padding: "12px",
             }}
           >
-            <h3 className="vertical-timeline-element-title">
+            <h3 className="vertical-timeline-element-title font-bold">
               Instituto Sinodal Da Paz
             </h3>
             <h4 className="vertical-timeline-element-subtitle italic">
