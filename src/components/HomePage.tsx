@@ -19,15 +19,17 @@ import Image from "next/image";
 export default function HomePage() {
   return (
     <>
-      <div className=" xl: mx-80 my-10">
-        <h2 className=" xl: text-base">Hello world! I am...</h2>
+      <div className=" smallmobile:mx-2 xl:mx-80 my-10">
+        <h2 className=" smallmobile:text-sm xl:text-base">
+          Hello world! I am...
+        </h2>
         <div className=" flex items-center">
-          <h1 className=" xl: text-6xl">Lucian Bellini</h1>
-          <AiOutlineSmile className=" ml-4 text-6xl" />
+          <h1 className=" smallmobile:text-3xl xl:text-6xl">Lucian Bellini</h1>
+          <AiOutlineSmile className=" smallmobile:text-3xl ml-4 xl:text-6xl" />
         </div>
 
-        <div className=" bg-color-gray border-2 rounded-md border-zinc-800 xl: my-5 p-2">
-          <h3 className=" xl: mb-2 text-xl">Who am I?</h3>
+        <div className=" smallmobile:my-3 bg-color-gray border-2 rounded-md border-zinc-800 xl:my-5 p-2">
+          <h3 className=" smallmobile:text-lg mb-2 xl:text-xl">Who am I?</h3>
           <p>
             I am a talented and experienced programmer with a passion for
             fullstack development. With around 3 proud years of programming
@@ -55,7 +57,8 @@ export default function HomePage() {
 
         <div>
           <h3>Programming Languages and Tools</h3>
-          <div>
+
+          <div className=" overflow-auto">
             <ul className=" block">
               <div className=" flex">
                 <li className=" xl: mr-2 mt-4">
@@ -64,123 +67,123 @@ export default function HomePage() {
                       href="https://developer.mozilla.org/pt-BR/docs/Web/HTML"
                       target="_blank"
                     >
-                      <AiFillHtml5 className=" xl:text-5xl mx-4" />
+                      <AiFillHtml5 className="smallmobile:text-3xl xl:text-5xl mx-4" />
                     </a>
                   </div>
                 </li>
-                <li className=" xl: mr-2 mt-4">
-                  <div className=" bg-color-gray py-4 border-2 rounded-md border-zinc-800 transition-transform duration-100 transform hover:-translate-y-2">
+                <li className="xl: mr-2 mt-4">
+                  <div className="bg-color-gray py-4 border-2 rounded-md border-zinc-800 transition-transform duration-100 transform hover:-translate-y-2">
                     <a
                       href="https://developer.mozilla.org/pt-BR/docs/Web/CSS"
                       target="_blank"
                     >
-                      <DiCss3 className=" xl:text-5xl mx-4" />
+                      <DiCss3 className="smallmobile:text-3xl xl:text-5xl mx-4" />
                     </a>
                   </div>
                 </li>
-                <li className=" xl: mr-2 mt-4">
-                  <div className=" bg-color-gray py-4 border-2 rounded-md border-zinc-800 transition-transform duration-100 transform hover:-translate-y-2">
+                <li className="xl: mr-2 mt-4">
+                  <div className="bg-color-gray py-4 border-2 rounded-md border-zinc-800 transition-transform duration-100 transform hover:-translate-y-2">
                     <a
                       href="https://developer.mozilla.org/pt-BR/docs/Web/JavaScript"
                       target="_blank"
                     >
-                      <SiJavascript className=" xl:text-5xl mx-4" />
+                      <SiJavascript className="smallmobile:text-3xl xl:text-5xl mx-4" />
                     </a>
                   </div>
                 </li>
-                <li className=" xl: mr-2 mt-4">
-                  <div className=" bg-color-gray py-4 border-2 rounded-md border-zinc-800 transition-transform duration-100 transform hover:-translate-y-2">
+                <li className="xl: mr-2 mt-4">
+                  <div className="bg-color-gray py-4 border-2 rounded-md border-zinc-800 transition-transform duration-100 transform hover:-translate-y-2">
                     <a href="https://sass-lang.com/" target="_blank">
-                      <SiSass className=" xl:text-5xl mx-4" />
+                      <SiSass className="smallmobile:text-3xl xl:text-5xl mx-4" />
                     </a>
                   </div>
                 </li>
-                <li className=" xl: mr-2 mt-4">
-                  <div className=" bg-color-gray py-4 border-2 rounded-md border-zinc-800 transition-transform duration-100 transform hover:-translate-y-2">
+                <li className="xl: mr-2 mt-4">
+                  <div className="bg-color-gray py-4 border-2 rounded-md border-zinc-800 transition-transform duration-100 transform hover:-translate-y-2">
                     <a href="https://tailwindcss.com/" target="_blank">
-                      <SiTailwindcss className=" xl:text-5xl mx-4" />
+                      <SiTailwindcss className="smallmobile:text-3xl xl:text-5xl mx-4" />
                     </a>
                   </div>
                 </li>
-                <li className=" xl: mr-2 mt-4">
-                  <div className=" bg-color-gray py-4 border-2 rounded-md border-zinc-800 transition-transform duration-100 transform hover:-translate-y-2">
+                <li className="xl: mr-2 mt-4">
+                  <div className="bg-color-gray py-4 border-2 rounded-md border-zinc-800 transition-transform duration-100 transform hover:-translate-y-2">
                     <a href="https://www.typescriptlang.org/" target="_blank">
-                      <SiTypescript className=" xl:text-5xl mx-4" />
+                      <SiTypescript className="smallmobile:text-3xl xl:text-5xl mx-4" />
                     </a>
                   </div>
                 </li>
-                <li className=" xl: mr-2 mt-4">
-                  <div className=" bg-color-gray py-4 border-2 rounded-md border-zinc-800 transition-transform duration-100 transform hover:-translate-y-2">
+                <li className="xl: mr-2 mt-4">
+                  <div className="bg-color-gray py-4 border-2 rounded-md border-zinc-800 transition-transform duration-100 transform hover:-translate-y-2">
                     <a href="https://react.dev/" target="_blank">
-                      <FaReact className=" xl:text-5xl mx-4" />
+                      <FaReact className="smallmobile:text-3xl xl:text-5xl mx-4" />
                     </a>
                   </div>
                 </li>
-                <li className=" xl: mr-2 mt-4">
-                  <div className=" bg-color-gray py-4 border-2 rounded-md border-zinc-800 transition-transform duration-100 transform hover:-translate-y-2">
+                <li className="xl: mr-2 mt-4">
+                  <div className="bg-color-gray py-4 border-2 rounded-md border-zinc-800 transition-transform duration-100 transform hover:-translate-y-2">
                     <a href="https://nodejs.org/en" target="_blank">
-                      <FaNode className=" xl:text-5xl mx-4" />
+                      <FaNode className="smallmobile:text-3xl xl:text-5xl mx-4" />
                     </a>
                   </div>
                 </li>
               </div>
-              <div className=" flex">
-                <li className=" xl: mr-2 mt-4">
-                  <div className=" bg-color-gray py-4 border-2 rounded-md border-zinc-800 transition-transform duration-100 transform hover:-translate-y-2">
+              <div className="flex">
+                <li className="xl: mr-2 mt-4">
+                  <div className="bg-color-gray py-4 border-2 rounded-md border-zinc-800 transition-transform duration-100 transform hover:-translate-y-2">
                     <a href="https://expressjs.com/" target="_blank">
-                      <SiExpress className=" xl:text-5xl mx-4" />
+                      <SiExpress className="smallmobile:text-3xl xl:text-5xl mx-4" />
                     </a>
                   </div>
                 </li>
-                <li className=" xl: mr-2 mt-4">
-                  <div className=" bg-color-gray py-4 border-2 rounded-md border-zinc-800 transition-transform duration-100 transform hover:-translate-y-2">
+                <li className="xl: mr-2 mt-4">
+                  <div className="bg-color-gray py-4 border-2 rounded-md border-zinc-800 transition-transform duration-100 transform hover:-translate-y-2">
                     <a
                       href="https://developer.oracle.com/languages/java.html"
                       target="_blank"
                     >
-                      <FaJava className=" xl:text-5xl mx-4" />
+                      <FaJava className="smallmobile:text-3xl xl:text-5xl mx-4" />
                     </a>
                   </div>
                 </li>
-                <li className=" xl: mr-2 mt-4">
-                  <div className=" bg-color-gray py-4 border-2 rounded-md border-zinc-800 transition-transform duration-100 transform hover:-translate-y-2">
+                <li className="xl: mr-2 mt-4">
+                  <div className="bg-color-gray py-4 border-2 rounded-md border-zinc-800 transition-transform duration-100 transform hover:-translate-y-2">
                     <a href="https://spring.io/" target="_blank">
-                      <SiSpring className=" xl:text-5xl mx-4" />
+                      <SiSpring className="smallmobile:text-3xl xl:text-5xl mx-4" />
                     </a>
                   </div>
                 </li>
-                <li className=" xl: mr-2 mt-4">
-                  <div className=" bg-color-gray py-4 border-2 rounded-md border-zinc-800 transition-transform duration-100 transform hover:-translate-y-2">
+                <li className="xl: mr-2 mt-4">
+                  <div className="bg-color-gray py-4 border-2 rounded-md border-zinc-800 transition-transform duration-100 transform hover:-translate-y-2">
                     <a href="https://www.mysql.com/" target="_blank">
-                      <SiMysql className=" xl:text-5xl mx-4" />
+                      <SiMysql className="smallmobile:text-3xl xl:text-5xl mx-4" />
                     </a>
                   </div>
                 </li>
-                <li className=" xl: mr-2 mt-4">
-                  <div className=" bg-color-gray py-4 border-2 rounded-md border-zinc-800 transition-transform duration-100 transform hover:-translate-y-2">
+                <li className="xl: mr-2 mt-4">
+                  <div className="bg-color-gray py-4 border-2 rounded-md border-zinc-800 transition-transform duration-100 transform hover:-translate-y-2">
                     <a href="https://www.postgresql.org/" target="_blank">
-                      <SiPostgresql className=" xl:text-5xl mx-4" />
+                      <SiPostgresql className="smallmobile:text-3xl xl:text-5xl mx-4" />
                     </a>
                   </div>
                 </li>
-                <li className=" xl: mr-2 mt-4">
-                  <div className=" bg-color-gray py-4 border-2 rounded-md border-zinc-800 transition-transform duration-100 transform hover:-translate-y-2">
+                <li className="xl: mr-2 mt-4">
+                  <div className="bg-color-gray py-4 border-2 rounded-md border-zinc-800 transition-transform duration-100 transform hover:-translate-y-2">
                     <a href="https://www.mongodb.com/" target="_blank">
-                      <SiMongodb className=" xl:text-5xl mx-4" />
+                      <SiMongodb className="smallmobile:text-3xl xl:text-5xl mx-4" />
                     </a>
                   </div>
                 </li>
-                <li className=" xl: mr-2 mt-4">
-                  <div className=" bg-color-gray py-4 border-2 rounded-md border-zinc-800 transition-transform duration-100 transform hover:-translate-y-2">
+                <li className="xl: mr-2 mt-4">
+                  <div className="bg-color-gray py-4 border-2 rounded-md border-zinc-800 transition-transform duration-100 transform hover:-translate-y-2">
                     <a href="https://git-scm.com/" target="_blank">
-                      <SiGit className=" xl:text-5xl mx-4" />
+                      <SiGit className="smallmobile:text-3xl xl:text-5xl mx-4" />
                     </a>
                   </div>
                 </li>
-                <li className=" xl: mr-2 mt-4">
-                  <div className=" bg-color-gray py-4 border-2 rounded-md border-zinc-800 transition-transform duration-100 transform hover:-translate-y-2">
+                <li className="xl: mr-2 mt-4">
+                  <div className="bg-color-gray py-4 border-2 rounded-md border-zinc-800 transition-transform duration-100 transform hover:-translate-y-2">
                     <a href="https://cloud.google.com/" target="_blank">
-                      <SiGooglecloud className=" xl:text-5xl mx-4" />
+                      <SiGooglecloud className="smallmobile:text-3xl xl:text-5xl mx-4" />
                     </a>
                   </div>
                 </li>
