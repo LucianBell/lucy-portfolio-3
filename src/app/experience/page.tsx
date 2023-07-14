@@ -51,8 +51,8 @@ export default function Experience() {
               Medelin - Colômbia (Remotely)
             </h4>
             <p>
-              Creative Direction, User Experience, Visual Design, Project
-              Management, Team Leading
+              Data cleaning - Process automation - Survey questionnaire design -
+              Data science - Microsoft Excel - Data analysis
             </p>
           </VerticalTimelineElement>
           <VerticalTimelineElement
@@ -74,8 +74,8 @@ export default function Experience() {
               Medelin - Colômbia (Remotely)
             </h4>
             <p>
-              Creative Direction, User Experience, Visual Design, SEO, Online
-              Marketing
+              Interviewing - Public speaking - Success orientation - Qualitative
+              and quantitative research methodologies - Data analysis
             </p>
           </VerticalTimelineElement>
           <VerticalTimelineElement
@@ -95,8 +95,8 @@ export default function Experience() {
               Giruá - Brasil
             </h4>
             <p>
-              Creative Direction, User Experience, Visual Design, SEO, Online
-              Marketing
+              Microsoft Office - Customer service - Google Sheets - Social media
+              - Secretary duties
             </p>
           </VerticalTimelineElement>
         </VerticalTimeline>
