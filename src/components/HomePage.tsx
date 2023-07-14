@@ -46,9 +46,10 @@ export default function HomePage() {
             option, MongoDB
           </p>
           <p>
-            My main focus is to create great software that changes people's life
-            and their way of taking their day-to-day lives. Leaving my mark on
-            the world is really important to me, so let's do that together.
+            My main focus is to create great software that changes people&apos;s
+            life and their way of taking their day-to-day lives. Leaving my mark
+            on the world is really important to me, so let&apos;s do that
+            together.
           </p>
         </div>
 
