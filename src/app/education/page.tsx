@@ -5,7 +5,9 @@ import {
   VerticalTimelineElement,
 } from "react-vertical-timeline-component";
 import "react-vertical-timeline-component/style.min.css";
-import LalaComponent from "@/components/LalaComponent";
+import UriComponent from "@/components/UriComponent";
+import UofAkronComponent from "@/components/UofAkronComponent";
+import DaPazComponent from "@/components/DaPazComponent";
 import LawComponent from "@/components/LawComponent";
 import { FaGraduationCap } from "react-icons/fa";
 
@@ -27,11 +29,11 @@ export default function page() {
             contentStyle={{ background: "rgb(49, 52, 56)", color: "#fff" }}
             contentArrowStyle={{ borderRight: "7px solid  rgb(49, 52, 56)" }}
             date="2023"
-            icon={<LalaComponent />}
+            icon={<UofAkronComponent />}
             iconStyle={{
               background: "rgb(20, 20, 21)",
               color: "#fff",
-              padding: "10px",
+              padding: "11px",
             }}
           >
             <h3 className="vertical-timeline-element-title">
@@ -50,11 +52,11 @@ export default function page() {
             contentStyle={{ background: "rgb(49, 52, 56)", color: "#fff" }}
             contentArrowStyle={{ borderRight: "7px solid  rgb(49, 52, 56)" }}
             date="2022 - 2026"
-            icon={<LalaComponent />}
+            icon={<UriComponent />}
             iconStyle={{
               background: "rgb(20, 20, 21)",
               color: "#fff",
-              padding: "10px",
+              padding: "11px",
             }}
           >
             <h3 className="vertical-timeline-element-title">
@@ -73,7 +75,7 @@ export default function page() {
             contentStyle={{ background: "rgb(49, 52, 56)", color: "#fff" }}
             contentArrowStyle={{ borderRight: "7px solid  rgb(49, 52, 56)" }}
             date="2018 - 2021"
-            icon={<LawComponent />}
+            icon={<DaPazComponent />}
             iconStyle={{
               background: "rgb(20, 20, 21)",
               color: "#fff",
