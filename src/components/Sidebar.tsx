@@ -6,6 +6,7 @@ import { SiNounproject } from "react-icons/si";
 import { MdOutlineArticle, MdOutlineClose } from "react-icons/md";
 import { FaGraduationCap } from "react-icons/fa";
 import Link from "next/link";
+import { useEffect } from "react";
 
 type props = {
   open: boolean;
@@ -13,11 +14,27 @@ type props = {
 };
 
 export default function Sidebar({ open, onClose }: props) {
+  useEffect(() => {
+    const handleScroll = () => {
+      if (open) {
+        document.body.classList.add("overflow-hidden");
+      } else {
+        document.body.classList.remove("overflow-hidden");
+      }
+    };
+
+    window.addEventListener("scroll", handleScroll);
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+      document.body.classList.remove("overflow-hidden");
+    };
+  }, [open]);
+
   const style = { color: "white" };
   return (
     <section
-      className={` fixed z-30 top-0 bottom-0 right-0 text-white transition-all duration-120 ${
-        open ? "w-screen bg-color-black" : "w-0"
+      className={`fixed z-30 top-0 bottom-0 right-0 text-white transition-all duration-120 ${
+        open ? "w-screen bg-color-black overflow-hidden" : "w-0"
       } md:w-[260px] md:left-0 md:bg-color-gray md:border-r-2 md:border-zinc-800 z-50`}
     >
       <div className=" p-3">
