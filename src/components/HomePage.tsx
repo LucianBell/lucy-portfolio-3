@@ -19,7 +19,7 @@ import Image from "next/image";
 export default function HomePage() {
   return (
     <>
-      <div className=" smallmobile:mx-2 xl:mx-80 my-10">
+      <div className=" smallmobile:mx-2 smallmobile:my-3 xl:mx-80 my-10">
         <h2 className=" smallmobile:text-sm xl:text-base">
           Hello world! I am...
         </h2>
