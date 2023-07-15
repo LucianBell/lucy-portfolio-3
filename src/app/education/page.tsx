@@ -14,15 +14,19 @@ import { FaGraduationCap } from "react-icons/fa";
 export default function page() {
   return (
     <>
-      <div className=" mx-80 my-10">
-        <h2 className=" text-base mt-10">Let me tell you about...</h2>
-        <div className=" flex items-center">
-          <h1 className=" text-6xl">My Education</h1>
-          <FaGraduationCap className=" ml-4 pt-2 text-5xl" />
+      <div className="  sm:mx-3 md:ml-64 md:my-6 smallmobile:mt-[80px] smallmobile:mx-2 smallmobile:my-3 lg:ml-72 lg:mr-36 xl:ml-80 xl:mr-44 my-10">
+        <h2 className="  smallmobile:text-sm md:text-base xl:text-xl lg:text-lg">
+          Let me tell you about...
+        </h2>
+        <div className=" flex items-end">
+          <h1 className=" smallmobile:text-3xl md:text-4xl lg:text-4xl xl:text-6xl">
+            My Education
+          </h1>
+          <FaGraduationCap className=" smallmobile:text-3xl lg:text-4xl ml-4 xl:text-6xl" />
         </div>
       </div>
 
-      <div className=" ml-80">
+      <div className=" smallmobile:ml-5 md:ml-64 lg:ml-72 ml-80">
         <VerticalTimeline>
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
