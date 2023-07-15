@@ -14,8 +14,7 @@ module.exports = {
       },
       screens: {
         smallmobile: "375px",
-        //mobile: "480px",
-        //sm: "640px",
+        sm: "640px",
         md: "768px",
         lg: "1024px",
         xl: "1280px",
@@ -25,6 +24,7 @@ module.exports = {
         "color-btn-gray": "#313438",
         "color-gray": "#141415",
         "color-light-gray": "#6B717B",
+        "color-alternative": "#9A031E",
       },
     },
   },

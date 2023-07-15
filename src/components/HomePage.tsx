@@ -19,24 +19,28 @@ import Image from "next/image";
 export default function HomePage() {
   return (
     <>
-      <div className=" smallmobile:mx-2 smallmobile:my-3 xl:mx-80 my-10">
-        <h2 className=" smallmobile:text-sm xl:text-base">
+      <div className=" sm:mx-3 md:ml-64 md:my-6 smallmobile:mt-[80px] smallmobile:mx-2 smallmobile:my-3 lg:ml-72 lg:mr-8 xl:mx-80 my-10">
+        <h2 className=" smallmobile:text-sm xl:text-base lg:text-lg">
           Hello world! I am...
         </h2>
         <div className=" flex items-center">
-          <h1 className=" smallmobile:text-3xl xl:text-6xl">Lucian Bellini</h1>
-          <AiOutlineSmile className=" smallmobile:text-3xl ml-4 xl:text-6xl" />
+          <h1 className=" smallmobile:text-3xl lg:text-4xl xl:text-6xl">
+            Lucian Bellini
+          </h1>
+          <AiOutlineSmile className=" smallmobile:text-3xl lg:text-4xl ml-4 xl:text-6xl" />
         </div>
 
-        <div className=" smallmobile:my-3 bg-color-gray border-2 rounded-md border-zinc-800 xl:my-5 p-2">
-          <h3 className=" smallmobile:text-lg mb-2 xl:text-xl">Who am I?</h3>
-          <p>
+        <div className=" smallmobile:my-3 lg:my-5 bg-color-gray border-2 rounded-md border-zinc-800 xl:my-5 p-2">
+          <h3 className=" smallmobile:text-lg mb-2 lg:text-2xl xl:text-xl">
+            Who am I?
+          </h3>
+          <p className=" lg:text-lg">
             I am a talented and experienced programmer with a passion for
             fullstack development. With around 3 proud years of programming
             experience, I have oned my skills in creating robust and scalable
             web applications.
           </p>
-          <p className=" xl: my-3">
+          <p className="  lg:text-lg xl: my-3">
             Through this years I have developed important skills and gathered
             Certifications for both frontend and backend development. In the
             first, I proudly assure I have advanced knowledge of HTML, CSS,
@@ -47,7 +51,7 @@ export default function HomePage() {
             applications. With knowledge of MySQL, PostgreSQL, and, my most used
             option, MongoDB
           </p>
-          <p>
+          <p className=" lg:text-lg ">
             My main focus is to create great software that changes people&apos;s
             life and their way of taking their day-to-day lives. Leaving my mark
             on the world is really important to me, so let&apos;s do that
@@ -56,7 +60,7 @@ export default function HomePage() {
         </div>
 
         <div>
-          <h3>Programming Languages and Tools</h3>
+          <h3 className=" lg:text-2xl">Programming Languages and Tools</h3>
 
           <div className=" overflow-auto">
             <ul className=" block">
@@ -67,7 +71,7 @@ export default function HomePage() {
                       href="https://developer.mozilla.org/pt-BR/docs/Web/HTML"
                       target="_blank"
                     >
-                      <AiFillHtml5 className="smallmobile:text-3xl xl:text-5xl mx-4" />
+                      <AiFillHtml5 className="smallmobile:text-3xl lg:text-4xl xl:text-5xl mx-4" />
                     </a>
                   </div>
                 </li>
@@ -77,7 +81,7 @@ export default function HomePage() {
                       href="https://developer.mozilla.org/pt-BR/docs/Web/CSS"
                       target="_blank"
                     >
-                      <DiCss3 className="smallmobile:text-3xl xl:text-5xl mx-4" />
+                      <DiCss3 className="smallmobile:text-3xl lg:text-4xl xl:text-5xl mx-4" />
                     </a>
                   </div>
                 </li>
@@ -87,42 +91,42 @@ export default function HomePage() {
                       href="https://developer.mozilla.org/pt-BR/docs/Web/JavaScript"
                       target="_blank"
                     >
-                      <SiJavascript className="smallmobile:text-3xl xl:text-5xl mx-4" />
+                      <SiJavascript className="smallmobile:text-3xl lg:text-4xl xl:text-5xl mx-4" />
                     </a>
                   </div>
                 </li>
                 <li className="xl: mr-2 mt-4">
                   <div className="bg-color-gray py-4 border-2 rounded-md border-zinc-800 transition-transform duration-100 transform hover:-translate-y-2">
                     <a href="https://sass-lang.com/" target="_blank">
-                      <SiSass className="smallmobile:text-3xl xl:text-5xl mx-4" />
+                      <SiSass className="smallmobile:text-3xl lg:text-4xl xl:text-5xl mx-4" />
                     </a>
                   </div>
                 </li>
                 <li className="xl: mr-2 mt-4">
                   <div className="bg-color-gray py-4 border-2 rounded-md border-zinc-800 transition-transform duration-100 transform hover:-translate-y-2">
                     <a href="https://tailwindcss.com/" target="_blank">
-                      <SiTailwindcss className="smallmobile:text-3xl xl:text-5xl mx-4" />
+                      <SiTailwindcss className="smallmobile:text-3xl lg:text-4xl xl:text-5xl mx-4" />
                     </a>
                   </div>
                 </li>
                 <li className="xl: mr-2 mt-4">
                   <div className="bg-color-gray py-4 border-2 rounded-md border-zinc-800 transition-transform duration-100 transform hover:-translate-y-2">
                     <a href="https://www.typescriptlang.org/" target="_blank">
-                      <SiTypescript className="smallmobile:text-3xl xl:text-5xl mx-4" />
+                      <SiTypescript className="smallmobile:text-3xl lg:text-4xl xl:text-5xl mx-4" />
                     </a>
                   </div>
                 </li>
                 <li className="xl: mr-2 mt-4">
                   <div className="bg-color-gray py-4 border-2 rounded-md border-zinc-800 transition-transform duration-100 transform hover:-translate-y-2">
                     <a href="https://react.dev/" target="_blank">
-                      <FaReact className="smallmobile:text-3xl xl:text-5xl mx-4" />
+                      <FaReact className="smallmobile:text-3xl lg:text-4xl xl:text-5xl mx-4" />
                     </a>
                   </div>
                 </li>
                 <li className="xl: mr-2 mt-4">
                   <div className="bg-color-gray py-4 border-2 rounded-md border-zinc-800 transition-transform duration-100 transform hover:-translate-y-2">
                     <a href="https://nodejs.org/en" target="_blank">
-                      <FaNode className="smallmobile:text-3xl xl:text-5xl mx-4" />
+                      <FaNode className="smallmobile:text-3xl lg:text-4xl xl:text-5xl mx-4" />
                     </a>
                   </div>
                 </li>
@@ -131,7 +135,7 @@ export default function HomePage() {
                 <li className="xl: mr-2 mt-4">
                   <div className="bg-color-gray py-4 border-2 rounded-md border-zinc-800 transition-transform duration-100 transform hover:-translate-y-2">
                     <a href="https://expressjs.com/" target="_blank">
-                      <SiExpress className="smallmobile:text-3xl xl:text-5xl mx-4" />
+                      <SiExpress className="smallmobile:text-3xl lg:text-4xl xl:text-5xl mx-4" />
                     </a>
                   </div>
                 </li>
@@ -141,49 +145,49 @@ export default function HomePage() {
                       href="https://developer.oracle.com/languages/java.html"
                       target="_blank"
                     >
-                      <FaJava className="smallmobile:text-3xl xl:text-5xl mx-4" />
+                      <FaJava className="smallmobile:text-3xl lg:text-4xl xl:text-5xl mx-4" />
                     </a>
                   </div>
                 </li>
                 <li className="xl: mr-2 mt-4">
                   <div className="bg-color-gray py-4 border-2 rounded-md border-zinc-800 transition-transform duration-100 transform hover:-translate-y-2">
                     <a href="https://spring.io/" target="_blank">
-                      <SiSpring className="smallmobile:text-3xl xl:text-5xl mx-4" />
+                      <SiSpring className="smallmobile:text-3xl lg:text-4xl xl:text-5xl mx-4" />
                     </a>
                   </div>
                 </li>
                 <li className="xl: mr-2 mt-4">
                   <div className="bg-color-gray py-4 border-2 rounded-md border-zinc-800 transition-transform duration-100 transform hover:-translate-y-2">
                     <a href="https://www.mysql.com/" target="_blank">
-                      <SiMysql className="smallmobile:text-3xl xl:text-5xl mx-4" />
+                      <SiMysql className="smallmobile:text-3xl lg:text-4xl xl:text-5xl mx-4" />
                     </a>
                   </div>
                 </li>
                 <li className="xl: mr-2 mt-4">
                   <div className="bg-color-gray py-4 border-2 rounded-md border-zinc-800 transition-transform duration-100 transform hover:-translate-y-2">
                     <a href="https://www.postgresql.org/" target="_blank">
-                      <SiPostgresql className="smallmobile:text-3xl xl:text-5xl mx-4" />
+                      <SiPostgresql className="smallmobile:text-3xl lg:text-4xl xl:text-5xl mx-4" />
                     </a>
                   </div>
                 </li>
                 <li className="xl: mr-2 mt-4">
                   <div className="bg-color-gray py-4 border-2 rounded-md border-zinc-800 transition-transform duration-100 transform hover:-translate-y-2">
                     <a href="https://www.mongodb.com/" target="_blank">
-                      <SiMongodb className="smallmobile:text-3xl xl:text-5xl mx-4" />
+                      <SiMongodb className="smallmobile:text-3xl lg:text-4xl xl:text-5xl mx-4" />
                     </a>
                   </div>
                 </li>
                 <li className="xl: mr-2 mt-4">
                   <div className="bg-color-gray py-4 border-2 rounded-md border-zinc-800 transition-transform duration-100 transform hover:-translate-y-2">
                     <a href="https://git-scm.com/" target="_blank">
-                      <SiGit className="smallmobile:text-3xl xl:text-5xl mx-4" />
+                      <SiGit className="smallmobile:text-3xl lg:text-4xl xl:text-5xl mx-4" />
                     </a>
                   </div>
                 </li>
                 <li className="xl: mr-2 mt-4">
                   <div className="bg-color-gray py-4 border-2 rounded-md border-zinc-800 transition-transform duration-100 transform hover:-translate-y-2">
                     <a href="https://cloud.google.com/" target="_blank">
-                      <SiGooglecloud className="smallmobile:text-3xl xl:text-5xl mx-4" />
+                      <SiGooglecloud className="smallmobile:text-3xl lg:text-4xl xl:text-5xl mx-4" />
                     </a>
                   </div>
                 </li>

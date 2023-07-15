@@ -33,16 +33,19 @@ export default function Sidebar({ open, onClose }: props) {
   const style = { color: "white" };
   return (
     <section
-      className={`fixed z-30 top-0 bottom-0 right-0 text-white transition-all duration-120 ${
+      className={`fixed z-30 top-0 bottom-0 right-0 text-white transition-all duration-300 ${
         open ? "w-screen bg-color-black overflow-hidden" : "w-0"
-      } md:w-[260px] md:left-0 md:bg-color-gray md:border-r-2 md:border-zinc-800 z-50`}
+      } md:w-[230px] md:left-0 md:bg-color-gray md:border-r-2 md:border-zinc-800 lg:w-[260px] z-50`}
     >
       <div className=" p-3">
         <div>
           <div>
             <div className=" flex items-center justify-between">
               <div className=" flex gap-4 items-center">
-                <a href="#">
+                <a
+                  href="https://www.linkedin.com/in/lucianbellini/"
+                  target="_blank"
+                >
                   <Image
                     src="/myPhoto.png"
                     alt="Lucian Bellini"
