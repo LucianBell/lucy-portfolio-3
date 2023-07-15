@@ -21,7 +21,7 @@ export default function Header({ openSidebarClick }: props) {
 
   return (
     <header
-      className={` fixed top-0 bg-black w-full lg:hidden md:hidden transition-opacity duration-500 border-b-2 border-color-btn-gray`}
+      className={` z-30 fixed top-0 bg-black w-full lg:hidden md:hidden transition-opacity duration-500 border-b-2 border-color-btn-gray`}
     >
       <div className="h-[50px] m-3 my-1.5 flex justify-between items-center">
         <div>
