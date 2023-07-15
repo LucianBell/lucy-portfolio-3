@@ -19,8 +19,8 @@ import Image from "next/image";
 export default function HomePage() {
   return (
     <>
-      <div className=" sm:mx-3 md:ml-64 md:my-6 smallmobile:mt-[80px] smallmobile:mx-2 smallmobile:my-3 lg:ml-72 lg:mr-8 xl:mx-80 my-10">
-        <h2 className=" smallmobile:text-sm xl:text-base lg:text-lg">
+      <div className=" sm:mx-3 md:ml-64 md:my-6 smallmobile:mt-[80px] smallmobile:mx-2 smallmobile:my-3 lg:ml-72 lg:mr-36 xl:ml-80 xl:mr-44 my-10">
+        <h2 className=" smallmobile:text-sm xl:text-xl lg:text-lg">
           Hello world! I am...
         </h2>
         <div className=" flex items-center">
@@ -31,16 +31,16 @@ export default function HomePage() {
         </div>
 
         <div className=" smallmobile:my-3 lg:my-5 bg-color-gray border-2 rounded-md border-zinc-800 xl:my-5 p-2">
-          <h3 className=" smallmobile:text-lg mb-2 lg:text-2xl xl:text-xl">
+          <h3 className=" smallmobile:text-lg mb-2 lg:text-2xl xl:text-2xl">
             Who am I?
           </h3>
-          <p className=" lg:text-lg">
+          <p className=" lg:text-lg xl:text-lg">
             I am a talented and experienced programmer with a passion for
             fullstack development. With around 3 proud years of programming
             experience, I have oned my skills in creating robust and scalable
             web applications.
           </p>
-          <p className="  lg:text-lg xl: my-3">
+          <p className="  lg:text-lg xl: my-3 xl:text-lg">
             Through this years I have developed important skills and gathered
             Certifications for both frontend and backend development. In the
             first, I proudly assure I have advanced knowledge of HTML, CSS,
@@ -51,7 +51,7 @@ export default function HomePage() {
             applications. With knowledge of MySQL, PostgreSQL, and, my most used
             option, MongoDB
           </p>
-          <p className=" lg:text-lg ">
+          <p className=" lg:text-lg xl:text-lg">
             My main focus is to create great software that changes people&apos;s
             life and their way of taking their day-to-day lives. Leaving my mark
             on the world is really important to me, so let&apos;s do that
