@@ -14,7 +14,7 @@ export default async function page() {
   const myPokedexImg = myPokedexImage;
 
   const content = (
-    <section className=" mr-8 grid grid-cols-3 grid-rows-3 gap-4">
+    <section className=" smallmobile:grid-cols-1 smallmobile:grid smallmobile:mx-3 sm:grid sm:grid-cols-2 sm:mx-4 lg:grid lg:grid-cols-3 xl:mr-2 xl:grid xl:grid-cols-3 xl:grid-rows-3 gap-4">
       {projects.map((project) => {
         const isDeployed = (deployed: boolean) => {
           if (deployed == true) {
@@ -58,11 +58,15 @@ export default async function page() {
 
   return (
     <>
-      <section className=" ml-72 my-10">
-        <h2 className=" text-base">Let me show you some of my...</h2>
+      <section className="  sm:mx-3 md:ml-64 md:my-6 smallmobile:mt-[80px] smallmobile:mx-2 smallmobile:my-3 lg:ml-72 lg:mr-30 xl:ml-80 xl:mr-32 my-10">
+        <h2 className="  smallmobile:text-sm md:text-base xl:text-xl lg:text-lg">
+          Let me show you some of my...
+        </h2>
         <div className=" flex items-end mb-10">
-          <h1 className=" text-6xl">Projects</h1>
-          <SiNounproject className=" ml-4 text-5xl" />
+          <h1 className="smallmobile:text-3xl md:text-4xl lg:text-4xl xl:text-6xl">
+            Projects
+          </h1>
+          <SiNounproject className=" smallmobile:text-3xl lg:text-4xl ml-4 xl:text-6xl" />
         </div>
         <div className=" flex">{[content]}</div>
       </section>
