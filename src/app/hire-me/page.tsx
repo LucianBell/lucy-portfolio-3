@@ -16,106 +16,127 @@ import { AiOutlineSmile } from "react-icons/ai";
 export default function page() {
   return (
     <>
-      <section className=" ml-80">
-        <h2 className=" text-xl mt-10">You are making...</h2>
+      <section className="  sm:mx-3 md:ml-64 md:my-6 smallmobile:mt-[80px] smallmobile:mx-2 smallmobile:my-3 lg:ml-72 lg:mr-30 xl:ml-80 xl:mr-32 my-10">
+        <h2 className=" smallmobile:text-sm md:text-base xl:text-xl lg:text-lg">
+          You are making...
+        </h2>
         <div className=" flex items-center mb-8">
-          <h1 className=" text-6xl">The right choice</h1>
-          <GiCheckMark className="  ml-4 pt-2 text-5xl" />
+          <h1 className=" smallmobile:text-3xl md:text-4xl lg:text-4xl xl:text-6xl">
+            The right choice
+          </h1>
+          <GiCheckMark className="  smallmobile:text-3xl lg:text-4xl ml-4 xl:text-6xl" />
         </div>
 
         <div className="">
           <h3 className=" text-2xl">Ways of contacting me</h3>
-          <div className=" flex">
-            <div className=" group items-center">
-              <a
-                href="mailto:lucianbellini1@gmail.com"
-                className=" flex items-center"
-              >
-                <MdEmail className=" transition-all duration-150 mr-1 group-hover:scale-110" />
-                Email
-              </a>
-            </div>
-            <div className=" group items-center mx-4">
-              <a href="tel:05555999403500" className=" flex items-center">
-                <IoCall className=" transition-all duration-150 mr-1 group-hover:scale-110" />
-                Call me
-              </a>
-            </div>
-            <div className=" group items-center">
-              <a
-                href="https://wa.me/5555999403500"
-                target="_blank"
-                className=" flex items-center"
-              >
-                <BsWhatsapp className=" transition-all duration-150 mr-1 group-hover:scale-110" />
-                Whatsapp
-              </a>
-            </div>
+
+          <div className=" overflow-auto">
+            <ul className=" block">
+              <div className=" flex">
+                <li className=" xl: mr-2 mt-4">
+                  <div className=" bg-color-gray py-4 border-2 rounded-md border-zinc-800 transition-transform duration-100 transform hover:-translate-y-2">
+                    <a href="mailto:lucianbellini1@gmail.com" target="_blank">
+                      <MdEmail className="smallmobile:text-3xl lg:text-4xl xl:text-4xl mx-4" />
+                    </a>
+                  </div>
+                </li>
+                <li className="xl: mr-2 mt-4">
+                  <div className="bg-color-gray py-4 border-2 rounded-md border-zinc-800 transition-transform duration-100 transform hover:-translate-y-2">
+                    <a href="tel:05555999403500" target="_blank">
+                      <IoCall className="smallmobile:text-3xl lg:text-4xl xl:text-4xl mx-4" />
+                    </a>
+                  </div>
+                </li>
+                <li className="xl: mr-2 mt-4">
+                  <div className="bg-color-gray py-4 border-2 rounded-md border-zinc-800 transition-transform duration-100 transform hover:-translate-y-2">
+                    <a href="https://wa.me/5555999403500" target="_blank">
+                      <BsWhatsapp className="smallmobile:text-3xl lg:text-4xl xl:text-4xl mx-4" />
+                    </a>
+                  </div>
+                </li>
+              </div>
+            </ul>
           </div>
         </div>
 
         <div className=" my-7">
           <h3 className=" text-2xl">My social media</h3>
-          <div className=" flex items-baseline">
-            <a
-              href="https://www.linkedin.com/in/lucianbellini/"
-              className=" transition-all duration-150 mr-3 hover:scale-110"
-              target="_blank"
-            >
-              <BsLinkedin className=" text-lg mt-1" />
-            </a>
-            <a
-              href="https://github.com/LucianBell"
-              className=" transition-all duration-150 mr-3 hover:scale-110"
-              target="_blank"
-            >
-              <BsGithub className=" text-lg mt-1" />
-            </a>
-            <a
-              href="https://dev.to/lucianbellini"
-              className=" transition-all duration-150 mr-3 hover:scale-110"
-              target="_blank"
-            >
-              <MdOutlineLogoDev className=" text-lg mt-1" />
-            </a>
-            <a
-              href="https://www.youtube.com/channel/UCC8CbQPuKgjGm-QRUk8RICw"
-              className=" transition-all duration-150 mr-3 hover:scale-110"
-              target="_blank"
-            >
-              <BsYoutube className=" text-lg mt-1" />
-            </a>
-            <a
-              href="https://www.tiktok.com/@dev.lucy"
-              className=" transition-all duration-150 mr-3 hover:scale-110"
-              target="_blank"
-            >
-              <BsTiktok className=" text-lg mt-1" />
-            </a>
-            <a
-              href="https://www.instagram.com/lucianf.bellini/"
-              className=" transition-all duration-150 mr-3 hover:scale-110"
-              target="_blank"
-            >
-              <BsInstagram className=" text-lg mt-1" />
-            </a>
+
+          <div className=" overflow-auto">
+            <ul className=" block">
+              <div className=" flex">
+                <li className=" xl: mr-2 mt-4">
+                  <div className=" bg-color-gray py-4 border-2 rounded-md border-zinc-800 transition-transform duration-100 transform hover:-translate-y-2">
+                    <a
+                      href="https://www.linkedin.com/in/lucianbellini/"
+                      target="_blank"
+                    >
+                      <BsLinkedin className="smallmobile:text-3xl lg:text-4xl xl:text-4xl mx-4" />
+                    </a>
+                  </div>
+                </li>
+                <li className="xl: mr-2 mt-4">
+                  <div className="bg-color-gray py-4 border-2 rounded-md border-zinc-800 transition-transform duration-100 transform hover:-translate-y-2">
+                    <a href="https://github.com/LucianBell" target="_blank">
+                      <BsGithub className="smallmobile:text-3xl lg:text-4xl xl:text-4xl mx-4" />
+                    </a>
+                  </div>
+                </li>
+                <li className="xl: mr-2 mt-4">
+                  <div className="bg-color-gray py-4 border-2 rounded-md border-zinc-800 transition-transform duration-100 transform hover:-translate-y-2">
+                    <a href="https://dev.to/lucianbellini" target="_blank">
+                      <MdOutlineLogoDev className="smallmobile:text-3xl lg:text-4xl xl:text-4xl mx-4" />
+                    </a>
+                  </div>
+                </li>
+                <li className="xl: mr-2 mt-4">
+                  <div className="bg-color-gray py-4 border-2 rounded-md border-zinc-800 transition-transform duration-100 transform hover:-translate-y-2">
+                    <a
+                      href="https://www.youtube.com/channel/UCC8CbQPuKgjGm-QRUk8RICw"
+                      target="_blank"
+                    >
+                      <BsYoutube className="smallmobile:text-3xl lg:text-4xl xl:text-4xl mx-4" />
+                    </a>
+                  </div>
+                </li>
+                <li className="xl: mr-2 mt-4">
+                  <div className="bg-color-gray py-4 border-2 rounded-md border-zinc-800 transition-transform duration-100 transform hover:-translate-y-2">
+                    <a href="https://www.tiktok.com/@dev.lucy" target="_blank">
+                      <BsTiktok className="smallmobile:text-3xl lg:text-4xl xl:text-4xl mx-4" />
+                    </a>
+                  </div>
+                </li>
+                <li className="xl: mr-2 mt-4">
+                  <div className="bg-color-gray py-4 border-2 rounded-md border-zinc-800 transition-transform duration-100 transform hover:-translate-y-2">
+                    <a
+                      href="https://www.instagram.com/lucianf.bellini/"
+                      target="_blank"
+                    >
+                      <BsInstagram className="smallmobile:text-3xl lg:text-4xl xl:text-4xl mx-4" />
+                    </a>
+                  </div>
+                </li>
+              </div>
+            </ul>
           </div>
         </div>
 
         <div className=" items-center flex">
-          <h3 className=" text-2xl">Need a closer look? I get it</h3>
-          <AiOutlineSmile className=" ml-4 text-3xl" />
+          <h3 className=" text-2xl">Need a closer look? See my curriculum!</h3>
+          <AiOutlineSmile className=" smallmobile:hidden ml-4 text-3xl" />
         </div>
 
-        <div className=" flex items-center group">
-          <a
-            href="https://docs.google.com/document/d/1hHY0NvO4qRalQ3x30Paegm3qhzgM_ubvFcI_21CjmGM/edit?usp=sharing"
-            target="_blank"
-            className=" flex items-center text-lg"
-          >
-            <BsFilePersonFill className=" transition-all duration-150 mr-1 group-hover:scale-110" />
-            My curriculum
-          </a>
+        <div className=" flex">
+          <div className="xl: mr-2 mt-4">
+            <div className="bg-color-gray py-4 border-2 rounded-md border-zinc-800 transition-transform duration-100 transform hover:-translate-y-2">
+              <a
+                href="https://docs.google.com/document/d/1hHY0NvO4qRalQ3x30Paegm3qhzgM_ubvFcI_21CjmGM/edit?usp=sharing"
+                target="_blank"
+              >
+                <BsFilePersonFill className="smallmobile:text-3xl lg:text-4xl xl:text-4xl mx-4" />
+              </a>
+            </div>
+          </div>
         </div>
       </section>
     </>
