@@ -59,7 +59,7 @@ export default async function page() {
   return (
     <>
       <section className="  sm:mx-3 md:ml-64 md:my-6 smallmobile:mt-[80px] smallmobile:mx-2 smallmobile:my-3 lg:ml-72 lg:mr-30 xl:ml-80 xl:mr-32 my-10">
-        <h2 className="  smallmobile:text-sm md:text-base xl:text-xl lg:text-lg">
+        <h2 className=" smallmobile:text-sm md:text-base xl:text-xl lg:text-lg">
           Let me show you some of my...
         </h2>
         <div className=" flex items-end mb-10">

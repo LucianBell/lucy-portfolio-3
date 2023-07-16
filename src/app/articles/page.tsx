@@ -9,7 +9,7 @@ export default async function page() {
   const articles = await articlesData;
 
   const content = (
-    <section className=" mr-8 grid grid-cols-3 grid-rows-3 gap-4">
+    <section className="  smallmobile:grid-cols-1 smallmobile:grid smallmobile:mx-3 sm:grid sm:grid-cols-2 sm:mx-4 lg:grid lg:grid-cols-3 xl:mr-2 xl:grid xl:grid-cols-3 xl:grid-rows-3 gap-4">
       {articles.map((article) => {
         const smallDate = (date: string) => {
           const correctData = date.slice(0, 10);
@@ -55,12 +55,16 @@ export default async function page() {
 
   return (
     <>
-      <section className=" ml-80">
+      <section className="  sm:mx-3 md:ml-64 md:my-6 smallmobile:mt-[80px] smallmobile:mx-2 smallmobile:my-3 lg:ml-72 lg:mr-30 xl:ml-80 xl:mr-32 my-10">
         <div className=" my-10">
-          <h2 className=" text-base">Let me show you some of my...</h2>
+          <h2 className=" smallmobile:text-sm md:text-base xl:text-xl lg:text-lg">
+            Read some of my...
+          </h2>
           <div className=" flex items-end">
-            <h1 className=" text-6xl">Articles</h1>
-            <MdOutlineArticle className="  ml-4 p-1 text-5xl" />
+            <h1 className=" smallmobile:text-3xl md:text-4xl lg:text-4xl xl:text-6xl">
+              Articles
+            </h1>
+            <MdOutlineArticle className="  smallmobile:text-3xl smallmobile:ml-2 md:text-3xl md:ml-2 lg:text-3xl lg:ml-2 ml-4 xl:text-5xl" />
           </div>
         </div>
 
