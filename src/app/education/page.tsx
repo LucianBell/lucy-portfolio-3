@@ -69,10 +69,7 @@ export default function page() {
             <h4 className="vertical-timeline-element-subtitle italic">
               Computer Science Degree
             </h4>
-            <p>
-              Creative Direction, User Experience, Visual Design, SEO, Online
-              Marketing
-            </p>
+            <p>GPA: 9.3/10 &lpar;Top 3 on class rank&rpar;</p>
           </VerticalTimelineElement>
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
