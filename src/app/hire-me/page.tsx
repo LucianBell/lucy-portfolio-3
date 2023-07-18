@@ -120,24 +120,6 @@ export default function page() {
             </ul>
           </div>
         </div>
-
-        <div className=" items-center flex">
-          <h3 className=" text-2xl">Need a closer look? See my curriculum!</h3>
-          <AiOutlineSmile className=" smallmobile:hidden ml-4 text-3xl" />
-        </div>
-
-        <div className=" flex">
-          <div className="xl: mr-2 mt-4">
-            <div className="bg-color-gray py-4 border-2 rounded-md border-zinc-800 transition-transform duration-100 transform hover:-translate-y-2">
-              <a
-                href="https://docs.google.com/document/d/1hHY0NvO4qRalQ3x30Paegm3qhzgM_ubvFcI_21CjmGM/edit?usp=sharing"
-                target="_blank"
-              >
-                <BsFilePersonFill className="smallmobile:text-3xl lg:text-4xl xl:text-4xl mx-4" />
-              </a>
-            </div>
-          </div>
-        </div>
       </section>
     </>
   );
