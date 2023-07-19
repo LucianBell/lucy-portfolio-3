@@ -19,7 +19,7 @@ import Image from "next/image";
 export default function HomePage() {
   return (
     <>
-      <div className=" sm:mx-3 md:ml-64 md:my-6 smallmobile:mt-[80px] smallmobile:mx-2 smallmobile:my-3 lg:ml-72 lg:mr-36 xl:ml-80 xl:mr-44 my-10">
+      <div className=" bg-black sm:mx-3 md:ml-64 md:my-6 smallmobile:mt-[80px] smallmobile:mx-2 smallmobile:my-3 lg:ml-72 lg:mr-36 xl:ml-80 xl:mr-44 my-10">
         <h2 className=" smallmobile:text-sm xl:text-xl lg:text-lg">
           Hello world! I am...
         </h2>
