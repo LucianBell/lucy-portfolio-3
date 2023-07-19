@@ -46,10 +46,13 @@ export default function page() {
             <h4 className="vertical-timeline-element-subtitle italic">
               Business Summer Course
             </h4>
-            <p>
-              Creative Direction, User Experience, Visual Design, Project
-              Management, Team Leading
-            </p>
+            <h5 className=" font-bold mt-1">Learned about</h5>
+            <ul className=" list-disc">
+              <li>Corporate communication</li>
+              <li>Business English</li>
+              <li>Product innovation</li>
+              <li>Product marketing</li>
+            </ul>
           </VerticalTimelineElement>
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
@@ -69,7 +72,15 @@ export default function page() {
             <h4 className="vertical-timeline-element-subtitle italic">
               Computer Science Degree
             </h4>
-            <p>GPA: 9.3/10 &lpar;Top 3 on class rank&rpar;</p>
+            <p>GPA: 9.3/10 &#40;Top 3 on class rank&#41;</p>
+            <h5 className=" font-bold mt-1">Activities</h5>
+            <ul className=" list-disc">
+              <li>Research internship</li>
+              <li>Google Cloud Computing Foundations Academy Scholar</li>
+              <li>
+                UNIGOU Training Program for International Research Publication
+              </li>
+            </ul>
           </VerticalTimelineElement>
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
@@ -89,7 +100,19 @@ export default function page() {
             <h4 className="vertical-timeline-element-subtitle italic">
               High School Diploma
             </h4>
-            <p>GPA: 8.2/10 &lpar;Top 4 on class rank&rpar;</p>
+            <p>GPA: 8.2/10 &#40;Top 4 on class rank&#41;</p>
+            <h5 className=" font-bold mt-1">Activities</h5>
+            <ul className=" list-disc">
+              <li>Founded the school's first Model UN</li>
+              <li>Created a mobile application for students</li>
+              <li>
+                Candidate for vice-president of the Student Council
+                &#40;election canceled due to the pandemic&#41;
+              </li>
+              <li>
+                Top 11% on the National High School Examination &#40;ENEM&#41;
+              </li>
+            </ul>
           </VerticalTimelineElement>
         </VerticalTimeline>
       </div>
