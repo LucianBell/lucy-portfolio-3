@@ -103,7 +103,7 @@ export default function page() {
             <p>GPA: 8.2/10 &#40;Top 4 on class rank&#41;</p>
             <h5 className=" font-bold mt-1">Activities</h5>
             <ul className=" list-disc">
-              <li>Founded the school's first Model UN</li>
+              <li>Founded the school&#39;s first Model UN</li>
               <li>Created a mobile application for students</li>
               <li>
                 Candidate for vice-president of the Student Council
