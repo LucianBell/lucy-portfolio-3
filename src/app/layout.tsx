@@ -18,7 +18,7 @@ export default function RootLayout({
       <head>
         <link rel="icon" href="/icon.ico" sizes="any" />
       </head>
-      <body className=" bg-black">{children}</body>
+      <body>{children}</body>
     </html>
   );
 }
