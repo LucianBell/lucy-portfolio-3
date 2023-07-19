@@ -14,7 +14,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en">
+    <html className=" fill-new-black" lang="en">
       <head>
         <link rel="icon" href="/icon.ico" sizes="any" />
       </head>
