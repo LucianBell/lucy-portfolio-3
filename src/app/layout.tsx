@@ -14,11 +14,11 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html className=" fill-new-black" lang="en">
+    <html className=" bg-black" lang="en">
       <head>
         <link rel="icon" href="/icon.ico" sizes="any" />
       </head>
-      <body>{children}</body>
+      <body className=" bg-black">{children}</body>
     </html>
   );
 }
