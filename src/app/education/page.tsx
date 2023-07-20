@@ -47,7 +47,7 @@ export default function page() {
               Business Summer Course
             </h4>
             <h5 className=" font-bold mt-1">Learned about</h5>
-            <ul className=" list-disc">
+            <ul className=" list-disc ml-1">
               <li>Corporate communication</li>
               <li>Business English</li>
               <li>Product innovation</li>
@@ -74,7 +74,7 @@ export default function page() {
             </h4>
             <p>GPA: 9.3/10 &#40;Top 3 on class rank&#41;</p>
             <h5 className=" font-bold mt-1">Activities</h5>
-            <ul className=" list-disc">
+            <ul className=" list-disc ml-1">
               <li>Research internship</li>
               <li>Google Cloud Computing Foundations Academy Scholar</li>
               <li>
@@ -102,7 +102,7 @@ export default function page() {
             </h4>
             <p>GPA: 8.2/10 &#40;Top 4 on class rank&#41;</p>
             <h5 className=" font-bold mt-1">Activities</h5>
-            <ul className=" list-disc">
+            <ul className=" list-disc ml-1">
               <li>Founded the school&#39;s first Model UN</li>
               <li>Created a mobile application for students</li>
               <li>

@@ -16,7 +16,7 @@ export default function Layout({
   const closeSidebar = () => setSidebarOpened(false);
 
   return (
-    <section>
+    <section className=" bg-color-black">
       <Header openSidebarClick={openSidebar} />
       <Sidebar open={sidebarOpened} onClose={closeSidebar} />
       {children}
