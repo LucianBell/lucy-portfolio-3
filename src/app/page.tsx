@@ -18,7 +18,9 @@ export default function Home() {
     <>
       <Header openSidebarClick={openSidebar} />
       <Sidebar open={sidebarOpened} onClose={closeSidebar} />
-      <HomePage />
+      <div className=" bg-color-black">
+        <HomePage />
+      </div>
     </>
   );
 }
