@@ -19,6 +19,9 @@ module.exports = {
         lg: "1024px",
         xl: "1280px",
       },
+      fontFamily: {
+        serif: ['var(--font-playfair)']
+      },
       colors: {
         "color-black": "#121212",
         "color-btn-gray": "#313438",
@@ -26,6 +29,7 @@ module.exports = {
         "color-light-gray": "#6B717B",
         "color-alternative": "#9A031E",
         "new-black": "#30292F",
+        "second-title-gray": "#BCBCBC"
       },
     },
   },

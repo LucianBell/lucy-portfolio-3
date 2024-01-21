@@ -15,23 +15,30 @@ import {
 } from "react-icons/si";
 import { FaReact, FaNode, FaJava } from "react-icons/fa";
 import Image from "next/image";
+import { Playfair_Display } from "@next/font/google"
+
+const playfair_display : any = Playfair_Display({
+  subsets: ['latin'],
+  variable: '--font-playfair'
+})
+
 
 export default function HomePage() {
   return (
     <>
       <div className=" bg-color-black sm:mx-3 md:ml-64 md:my-6 smallmobile:mt-[80px] smallmobile:mx-2 smallmobile:my-3 lg:ml-72 lg:mr-36 xl:ml-80 xl:mr-44 my-10">
-        <h2 className=" smallmobile:text-sm xl:text-xl lg:text-lg">
+        <h2 className={`smallmobile:text-sm xl:text-xl lg:text-lg text-second-title-gray`}>
           Hello world! I am...
         </h2>
         <div className=" flex items-center">
-          <h1 className=" smallmobile:text-3xl lg:text-4xl xl:text-6xl">
+          <h1 className={` smallmobile:text-3xl lg:text-4xl xl:text-6xl ${playfair_display.variable} font-serif`}>
             Lucian Bellini
           </h1>
           <AiOutlineSmile className=" smallmobile:text-3xl lg:text-4xl ml-4 xl:text-6xl" />
         </div>
 
         <div className=" smallmobile:my-3 lg:my-5 bg-color-gray border-2 rounded-md border-zinc-800 xl:my-5 p-2">
-          <h3 className=" smallmobile:text-lg mb-2 lg:text-2xl xl:text-2xl">
+          <h3 className={` smallmobile:text-lg mb-2 lg:text-2xl xl:text-2xl ${playfair_display.variable} font-serif`}>
             Who am I?
           </h3>
           <p className=" lg:text-lg xl:text-lg">
