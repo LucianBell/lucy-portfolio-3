@@ -7,6 +7,12 @@ import { MdOutlineArticle, MdOutlineClose } from "react-icons/md";
 import { FaGraduationCap } from "react-icons/fa";
 import Link from "next/link";
 import { useEffect } from "react";
+import { Playfair_Display } from "@next/font/google";
+
+const playfair_display: any = Playfair_Display({
+  subsets: ["latin"],
+  variable: "--font-playfair",
+});
 
 type props = {
   open: boolean;
@@ -55,8 +61,14 @@ export default function Sidebar({ open, onClose }: props) {
                   />
                 </a>
                 <div className=" block">
-                  <h2 className=" font-thin text-lg">Lucian Bellini</h2>
-                  <p className=" text-color-light-gray">Software Engineer</p>
+                  <h2
+                    className={` font-bold tracking-wider text-lg ${playfair_display.variable} font-serif`}
+                  >
+                    Lucian Bellini
+                  </h2>
+                  <p className=" text-second-title-gray tracking-wide">
+                    Data Scientist
+                  </p>
                 </div>
               </div>
               <div>

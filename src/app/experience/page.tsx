@@ -11,6 +11,12 @@ import {
 import "react-vertical-timeline-component/style.min.css";
 import LalaComponent from "@/components/LalaComponent";
 import LawComponent from "@/components/LawComponent";
+import { Playfair_Display } from "@next/font/google";
+
+const playfair_display: any = Playfair_Display({
+  subsets: ["latin"],
+  variable: "--font-playfair",
+});
 
 export default function Experience() {
   const [sidebarOpened, setSidebarOpened] = useState(false);
@@ -24,14 +30,16 @@ export default function Experience() {
         <Header openSidebarClick={openSidebar} />
         <Sidebar open={sidebarOpened} onClose={closeSidebar} />
         <div className=" bg-color-black sm:mx-3 md:ml-64 md:my-6 smallmobile:mt-[80px] smallmobile:mx-2 smallmobile:my-3 lg:ml-72 lg:mr-36 xl:ml-80 xl:mr-44 my-10">
-          <h2 className="  smallmobile:text-sm md:text-base xl:text-xl lg:text-lg">
+          <h2 className="  smallmobile:text-sm md:text-base xl:text-xl lg:text-lg text-second-title-gray">
             Let me tell you about...
           </h2>
           <div className=" flex items-end">
-            <h1 className=" smallmobile:text-3xl md:text-4xl lg:text-4xl xl:text-6xl">
+            <h1
+              className={` smallmobile:text-3xl md:text-4xl lg:text-4xl xl:text-6xl ${playfair_display.variable} font-serif`}
+            >
               My Experience
             </h1>
-            <BsFillRocketTakeoffFill className=" smallmobile:text-3xl lg:text-4xl ml-4 xl:text-6xl" />
+            <BsFillRocketTakeoffFill className=" smallmobile:text-3xl lg:text-4xl ml-5 xl:text-5xl" />
           </div>
         </div>
 
@@ -50,9 +58,32 @@ export default function Experience() {
               }}
             >
               <h3 className="vertical-timeline-element-title font-bold">
+                Web Developer
+              </h3>
+              <h4 className="vertical-timeline-element-subtitle italic text-second-title-gray">
+                Medelin - Colômbia (Remotely)
+              </h4>
+              <p>
+                React - Next - Survey questionnaire design - Data science -
+                Microsoft Excel - Data analysis
+              </p>
+            </VerticalTimelineElement>
+            <VerticalTimelineElement
+              className="vertical-timeline-element--work"
+              contentStyle={{ background: "rgb(49, 52, 56)", color: "#fff" }}
+              contentArrowStyle={{ borderRight: "7px solid  rgb(49, 52, 56)" }}
+              date="2022 - 2023"
+              icon={<LalaComponent />}
+              iconStyle={{
+                background: "rgb(20, 20, 21)",
+                color: "#fff",
+                padding: "10px",
+              }}
+            >
+              <h3 className="vertical-timeline-element-title font-bold">
                 Data-Team Member
               </h3>
-              <h4 className="vertical-timeline-element-subtitle italic">
+              <h4 className="vertical-timeline-element-subtitle italic text-second-title-gray">
                 Medelin - Colômbia (Remotely)
               </h4>
               <p>
@@ -75,7 +106,7 @@ export default function Experience() {
               <h3 className="vertical-timeline-element-title font-bold">
                 Care Guide Member
               </h3>
-              <h4 className="vertical-timeline-element-subtitle italic">
+              <h4 className="vertical-timeline-element-subtitle italic text-second-title-gray">
                 Medelin - Colômbia (Remotely)
               </h4>
               <p>
@@ -99,7 +130,7 @@ export default function Experience() {
               <h3 className="vertical-timeline-element-title font-bold">
                 IT Analyst
               </h3>
-              <h4 className="vertical-timeline-element-subtitle italic">
+              <h4 className="vertical-timeline-element-subtitle italic text-second-title-gray">
                 Giruá - Brasil
               </h4>
               <p>
