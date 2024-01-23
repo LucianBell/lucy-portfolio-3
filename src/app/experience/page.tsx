@@ -11,6 +11,8 @@ import {
 import "react-vertical-timeline-component/style.min.css";
 import LalaComponent from "@/components/LalaComponent";
 import LawComponent from "@/components/LawComponent";
+import HNCComponent from "@/components/HistoriasNaoContadasComponent";
+import LBBCComponent from "@/components/LbbcComponent";
 import { Playfair_Display } from "@next/font/google";
 
 const playfair_display: any = Playfair_Display({
@@ -49,8 +51,29 @@ export default function Experience() {
               className="vertical-timeline-element--work"
               contentStyle={{ background: "rgb(49, 52, 56)", color: "#fff" }}
               contentArrowStyle={{ borderRight: "7px solid  rgb(49, 52, 56)" }}
-              date="2022 - 2023"
-              icon={<LalaComponent />}
+              date="12 / 2023 - Moment"
+              icon={<LBBCComponent />}
+              iconStyle={{
+                background: "rgb(20, 20, 21)",
+                color: "#fff",
+                padding: "8px",
+              }}
+            >
+              <h3 className="vertical-timeline-element-title font-bold">
+                Data Intern
+              </h3>
+              <h4 className="vertical-timeline-element-subtitle italic text-second-title-gray">
+                Laboratório de Bioinformática e Biologia Computacional (LLBC) |
+                Rio de Janeiro - Brazil (Remotely)
+              </h4>
+              <p>Python - Bash - Linux - Nextflow - Data Pipelines - GitLab</p>
+            </VerticalTimelineElement>
+            <VerticalTimelineElement
+              className="vertical-timeline-element--work"
+              contentStyle={{ background: "rgb(49, 52, 56)", color: "#fff" }}
+              contentArrowStyle={{ borderRight: "7px solid  rgb(49, 52, 56)" }}
+              date="04 / 2023 - 10 / 2023"
+              icon={<HNCComponent />}
               iconStyle={{
                 background: "rgb(20, 20, 21)",
                 color: "#fff",
@@ -61,18 +84,15 @@ export default function Experience() {
                 Web Developer
               </h3>
               <h4 className="vertical-timeline-element-subtitle italic text-second-title-gray">
-                Medelin - Colômbia (Remotely)
+                Histórias Não Contadas | Sergipe - Brazil (Remotely)
               </h4>
-              <p>
-                React - Next - Survey questionnaire design - Data science -
-                Microsoft Excel - Data analysis
-              </p>
+              <p>React - TypeScript - Next.js - Git - Github - TailwindCSS</p>
             </VerticalTimelineElement>
             <VerticalTimelineElement
               className="vertical-timeline-element--work"
               contentStyle={{ background: "rgb(49, 52, 56)", color: "#fff" }}
               contentArrowStyle={{ borderRight: "7px solid  rgb(49, 52, 56)" }}
-              date="2022 - 2023"
+              date="10 / 2022 - 04 / 2023"
               icon={<LalaComponent />}
               iconStyle={{
                 background: "rgb(20, 20, 21)",
@@ -84,7 +104,8 @@ export default function Experience() {
                 Data-Team Member
               </h3>
               <h4 className="vertical-timeline-element-subtitle italic text-second-title-gray">
-                Medelin - Colômbia (Remotely)
+                Latin American Leadership Academy | Medellín - Colombia
+                (Remotely)
               </h4>
               <p>
                 Data cleaning - Process automation - Survey questionnaire design
@@ -95,7 +116,7 @@ export default function Experience() {
               className="vertical-timeline-element--work"
               contentStyle={{ background: "rgb(49, 52, 56)", color: "#fff" }}
               contentArrowStyle={{ borderRight: "7px solid  rgb(49, 52, 56)" }}
-              date="2022 - 2023"
+              date="09 / 2022 - 01 / 2023"
               icon={<LalaComponent />}
               iconStyle={{
                 background: "rgb(20, 20, 21)",
@@ -107,7 +128,8 @@ export default function Experience() {
                 Care Guide Member
               </h3>
               <h4 className="vertical-timeline-element-subtitle italic text-second-title-gray">
-                Medelin - Colômbia (Remotely)
+                Latin American Leadership Academy | Medellín - Colombia
+                (Remotely)
               </h4>
               <p>
                 Interviewing - Public speaking - Success orientation -
@@ -119,7 +141,7 @@ export default function Experience() {
               className="vertical-timeline-element--work"
               contentStyle={{ background: "rgb(49, 52, 56)", color: "#fff" }}
               contentArrowStyle={{ borderRight: "7px solid  rgb(49, 52, 56)" }}
-              date="2018 - 2022"
+              date="01 / 2018 - 05 / 2022"
               icon={<LawComponent />}
               iconStyle={{
                 background: "rgb(20, 20, 21)",
@@ -131,7 +153,7 @@ export default function Experience() {
                 IT Analyst
               </h3>
               <h4 className="vertical-timeline-element-subtitle italic text-second-title-gray">
-                Giruá - Brasil
+                Bellini Advocacia (Law Office) | Giruá - Brazil
               </h4>
               <p>
                 Microsoft Office - Customer service - Google Sheets - Social
