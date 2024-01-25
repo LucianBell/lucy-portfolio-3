@@ -37,9 +37,7 @@ export default function HomePage() {
           >
             Lucian Bellini
           </h1>
-          <div className=" bg-white rounded-full border-1 p-1 ml-4">
-            <TbRobot className=" smallmobile:text-3xl lg:text-4xl xl:text-6xl text-dark-purple" />
-          </div>
+          <TbRobot className=" smallmobile:text-3xl lg:text-4xl xl:text-6xl ml-5 mt-1" />
         </div>
 
         <div className=" smallmobile:my-3 lg:my-5 bg-color-gray border-2 rounded-md border-zinc-800 xl:my-5 p-2">
@@ -76,7 +74,11 @@ export default function HomePage() {
         </div>
 
         <div>
-          <h3 className={` lg:text-2xl ${playfair_display.variable} font-serif`}>My Magic Tools:</h3>
+          <h3
+            className={` lg:text-2xl ${playfair_display.variable} font-serif`}
+          >
+            My Magic Tools:
+          </h3>
 
           <div className=" overflow-auto">
             <ul className=" block">

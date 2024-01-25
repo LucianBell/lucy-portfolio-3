@@ -1,9 +1,24 @@
+"use client";
+
+import { useState, ReactNode } from "react";
 import React from "react";
 import getDevToPosts from "../../../lib/getDevToPosts";
 import Link from "next/link";
 import { MdOutlineArticle } from "react-icons/md";
+import { Playfair_Display } from "@next/font/google";
+import Sidebar from "@/components/Sidebar";
+import Header from "@/components/Header";
 
-export default async function page() {
+const playfair_display: any = Playfair_Display({
+  subsets: ["latin"],
+  variable: "--font-playfair",
+});
+
+export default async function Articles() {
+  const [sidebarOpened, setSidebarOpened] = useState(false);
+
+  const openSidebar = () => setSidebarOpened(true);
+  const closeSidebar = () => setSidebarOpened(false);
   const articlesData: Promise<Article[]> = getDevToPosts();
 
   const articles = await articlesData;
@@ -55,21 +70,27 @@ export default async function page() {
 
   return (
     <>
-      <section className="  sm:mx-3 md:ml-64 md:my-6 smallmobile:mt-[80px] smallmobile:mx-2 smallmobile:my-3 lg:ml-72 lg:mr-30 xl:ml-80 xl:mr-32 my-10">
-        <div className=" my-10">
-          <h2 className=" smallmobile:text-sm md:text-base xl:text-xl lg:text-lg">
-            Read some of my...
-          </h2>
-          <div className=" flex items-end">
-            <h1 className=" smallmobile:text-3xl md:text-4xl lg:text-4xl xl:text-6xl">
-              Articles
-            </h1>
-            <MdOutlineArticle className="  smallmobile:text-3xl smallmobile:ml-2 md:text-3xl md:ml-2 lg:text-3xl lg:ml-2 ml-4 xl:text-5xl" />
+      <div className=" bg-color-black">
+        <Header openSidebarClick={openSidebar} />
+        <Sidebar open={sidebarOpened} onClose={closeSidebar} />
+        <section className="  sm:mx-3 md:ml-64 md:my-6 smallmobile:mt-[80px] smallmobile:mx-2 smallmobile:my-3 lg:ml-72 lg:mr-30 xl:ml-80 xl:mr-32 my-10">
+          <div className=" my-10">
+            <h2 className=" smallmobile:text-sm md:text-base xl:text-xl lg:text-lg text-second-title-gray">
+              Read some of my...
+            </h2>
+            <div className=" flex items-end">
+              <h1
+                className={` smallmobile:text-3xl md:text-4xl lg:text-4xl xl:text-6xl ${playfair_display.variable} font-serif`}
+              >
+                Articles
+              </h1>
+              <MdOutlineArticle className="  smallmobile:text-3xl smallmobile:ml-2 md:text-3xl md:ml-2 lg:text-3xl lg:ml-2 ml-4 xl:text-5xl" />
+            </div>
           </div>
-        </div>
 
-        <div className=" flex">{[content]}</div>
-      </section>
+          <div className=" flex">{[content]}</div>
+        </section>
+      </div>
     </>
   );
 }

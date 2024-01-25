@@ -11,17 +11,24 @@ import {
 import { MdOutlineLogoDev, MdEmail } from "react-icons/md";
 import { IoCall } from "react-icons/io5";
 import { GiCheckMark } from "react-icons/gi";
-import { AiOutlineSmile } from "react-icons/ai";
+import { Playfair_Display } from "@next/font/google";
+
+const playfair_display: any = Playfair_Display({
+  subsets: ["latin"],
+  variable: "--font-playfair",
+});
 
 export default function page() {
   return (
     <>
       <section className="  sm:mx-3 md:ml-64 md:my-6 smallmobile:mt-[80px] smallmobile:mx-2 smallmobile:my-3 lg:ml-72 lg:mr-30 xl:ml-80 xl:mr-32 my-10">
-        <h2 className=" smallmobile:text-sm md:text-base xl:text-xl lg:text-lg">
+        <h2 className=" smallmobile:text-sm md:text-base xl:text-xl lg:text-lg text-second-title-gray">
           You are making...
         </h2>
         <div className=" flex items-center mb-8">
-          <h1 className=" smallmobile:text-3xl md:text-4xl lg:text-4xl xl:text-6xl">
+          <h1
+            className={` smallmobile:text-3xl md:text-4xl lg:text-4xl xl:text-6xl ${playfair_display.variable} font-serif`}
+          >
             The right choice
           </h1>
           <GiCheckMark className="  smallmobile:text-3xl lg:text-4xl ml-4 xl:text-6xl" />

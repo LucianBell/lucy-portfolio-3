@@ -41,7 +41,7 @@ export default function Sidebar({ open, onClose }: props) {
     <section
       className={`fixed z-30 top-0 bottom-0 right-0 text-white bg-color-black transition-all duration-300 ${
         open ? "w-screen bg-color-black overflow-hidden" : "w-0"
-      } md:w-[230px] md:left-0 md:bg-color-gray md:border-r-2 md:border-zinc-800 lg:w-[260px] z-50`}
+      } md:w-[230px] md:left-0 md:bg-color-sidebar md:border-r-2 md:border-zinc-800 lg:w-[260px] z-50`}
     >
       <div className=" p-3">
         <div>

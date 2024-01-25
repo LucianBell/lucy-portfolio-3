@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, ReactNode } from "react";
+import { useState } from "react";
 import Sidebar from "@/components/Sidebar";
 import Header from "@/components/Header";
 import { BsFillRocketTakeoffFill } from "react-icons/bs";
@@ -51,7 +51,7 @@ export default function Experience() {
               className="vertical-timeline-element--work"
               contentStyle={{ background: "rgb(49, 52, 56)", color: "#fff" }}
               contentArrowStyle={{ borderRight: "7px solid  rgb(49, 52, 56)" }}
-              date="12 / 2023 - Moment"
+              date="DEC / 2023 - MOMENT"
               icon={<LBBCComponent />}
               iconStyle={{
                 background: "rgb(20, 20, 21)",
@@ -66,13 +66,16 @@ export default function Experience() {
                 Laboratório de Bioinformática e Biologia Computacional (LLBC) |
                 Rio de Janeiro - Brazil (Remotely)
               </h4>
-              <p>Python - Bash - Linux - Nextflow - Data Pipelines - GitLab</p>
+              <p>
+                Python - Bash - Linux - Nextflow - Data Pipelines - GitLab -
+                Docker
+              </p>
             </VerticalTimelineElement>
             <VerticalTimelineElement
               className="vertical-timeline-element--work"
               contentStyle={{ background: "rgb(49, 52, 56)", color: "#fff" }}
               contentArrowStyle={{ borderRight: "7px solid  rgb(49, 52, 56)" }}
-              date="04 / 2023 - 10 / 2023"
+              date="APR / 2023 - OCT / 2023"
               icon={<HNCComponent />}
               iconStyle={{
                 background: "rgb(20, 20, 21)",
@@ -92,7 +95,7 @@ export default function Experience() {
               className="vertical-timeline-element--work"
               contentStyle={{ background: "rgb(49, 52, 56)", color: "#fff" }}
               contentArrowStyle={{ borderRight: "7px solid  rgb(49, 52, 56)" }}
-              date="10 / 2022 - 04 / 2023"
+              date="OCT / 2022 - APR / 2023"
               icon={<LalaComponent />}
               iconStyle={{
                 background: "rgb(20, 20, 21)",
@@ -116,7 +119,7 @@ export default function Experience() {
               className="vertical-timeline-element--work"
               contentStyle={{ background: "rgb(49, 52, 56)", color: "#fff" }}
               contentArrowStyle={{ borderRight: "7px solid  rgb(49, 52, 56)" }}
-              date="09 / 2022 - 01 / 2023"
+              date="SEP / 2022 - JAN / 2023"
               icon={<LalaComponent />}
               iconStyle={{
                 background: "rgb(20, 20, 21)",
@@ -141,7 +144,7 @@ export default function Experience() {
               className="vertical-timeline-element--work"
               contentStyle={{ background: "rgb(49, 52, 56)", color: "#fff" }}
               contentArrowStyle={{ borderRight: "7px solid  rgb(49, 52, 56)" }}
-              date="01 / 2018 - 05 / 2022"
+              date="JAN / 2018 - MAY / 2022"
               icon={<LawComponent />}
               iconStyle={{
                 background: "rgb(20, 20, 21)",
