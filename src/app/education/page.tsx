@@ -8,9 +8,10 @@ import {
   VerticalTimelineElement,
 } from "react-vertical-timeline-component";
 import "react-vertical-timeline-component/style.min.css";
-import UriComponent from "@/components/UriComponent";
-import UofAkronComponent from "@/components/UofAkronComponent";
-import DaPazComponent from "@/components/DaPazComponent";
+import UriComponent from "@/components/logo-components/UriComponent";
+import UofAkronComponent from "@/components/logo-components/UofAkronComponent";
+import DaPazComponent from "@/components/logo-components/DaPazComponent";
+import UPFComponent from "@/components/logo-components/UPFComponent";
 import { FaGraduationCap } from "react-icons/fa";
 import { Playfair_Display } from "@next/font/google";
 
@@ -50,6 +51,29 @@ export default function Education() {
               className="vertical-timeline-element--work"
               contentStyle={{ background: "rgb(49, 52, 56)", color: "#fff" }}
               contentArrowStyle={{ borderRight: "7px solid  rgb(49, 52, 56)" }}
+              date="2024 - 2026"
+              icon={<UPFComponent />}
+              iconStyle={{
+                background: "rgb(20, 20, 21)",
+                color: "#fff",
+                padding: "11px",
+              }}
+            >
+              <h3 className="vertical-timeline-element-title font-bold">
+                Universidade de Passo Fundo
+              </h3>
+              <h4 className="vertical-timeline-element-subtitle italic text-second-title-gray">
+                Computer Science Degree
+              </h4>
+              <h5 className=" font-bold mt-1">Activities</h5>
+              <ul className=" list-disc ml-1">
+                <li>Coming soon ;D</li>
+              </ul>
+            </VerticalTimelineElement>
+            <VerticalTimelineElement
+              className="vertical-timeline-element--work"
+              contentStyle={{ background: "rgb(49, 52, 56)", color: "#fff" }}
+              contentArrowStyle={{ borderRight: "7px solid  rgb(49, 52, 56)" }}
               date="2023"
               icon={<UofAkronComponent />}
               iconStyle={{
@@ -76,7 +100,7 @@ export default function Education() {
               className="vertical-timeline-element--work"
               contentStyle={{ background: "rgb(49, 52, 56)", color: "#fff" }}
               contentArrowStyle={{ borderRight: "7px solid  rgb(49, 52, 56)" }}
-              date="2022 - 2026"
+              date="2022 - 2024"
               icon={<UriComponent />}
               iconStyle={{
                 background: "rgb(20, 20, 21)",
@@ -88,7 +112,7 @@ export default function Education() {
                 Universidade Regional Integrada do Alto do Uruguai e das Missões
               </h3>
               <h4 className="vertical-timeline-element-subtitle italic text-second-title-gray">
-                Computer Science Degree
+                Computer Science (Transfered to Universidade de Passo Fundo)
               </h4>
               <p>GPA: 9.3/10 &#40;Top 3 on class rank&#41;</p>
               <h5 className=" font-bold mt-1">Activities</h5>

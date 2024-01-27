@@ -1,5 +1,5 @@
 import Image from "next/image";
-import LalaImg from "/public/LALA-Vertical-Logo-RGB-FullColor.png";
+import LalaImg from "/public/experience-images/LALA-Vertical-Logo-RGB-FullColor.png";
 
 export default function LalaComponent() {
   return (

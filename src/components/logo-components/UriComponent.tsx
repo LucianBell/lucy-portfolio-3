@@ -1,5 +1,5 @@
 import Image from "next/image";
-import UriImage from "/public/URI_Logo.png";
+import UriImage from "/public/education-images/URI_Logo.png";
 
 export default function LalaComponent() {
   return (
@@ -8,7 +8,7 @@ export default function LalaComponent() {
         <Image
           className=" items-center"
           src={UriImage}
-          alt="Universidade Regional Integrada do Alto do Uruguai e Das Missões Logo"
+          alt="Universidade Regional Integrada do Alto do Uruguai e Das Missões's Logo"
           width={36}
           height={36}
         />

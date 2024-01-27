@@ -9,10 +9,10 @@ import {
   VerticalTimelineElement,
 } from "react-vertical-timeline-component";
 import "react-vertical-timeline-component/style.min.css";
-import LalaComponent from "@/components/LalaComponent";
-import LawComponent from "@/components/LawComponent";
-import HNCComponent from "@/components/HistoriasNaoContadasComponent";
-import LBBCComponent from "@/components/LbbcComponent";
+import LalaComponent from "@/components/logo-components/LalaComponent";
+import LawComponent from "@/components/logo-components/LawComponent";
+import HNCComponent from "@/components/logo-components/HistoriasNaoContadasComponent";
+import LBBCComponent from "@/components/logo-components/LbbcComponent";
 import { Playfair_Display } from "@next/font/google";
 
 const playfair_display: any = Playfair_Display({

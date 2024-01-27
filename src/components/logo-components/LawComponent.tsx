@@ -1,5 +1,5 @@
 import Image from "next/image";
-import LawImg from "/public/logotipoTransparenteAdvocacia.png";
+import LawImg from "../../../public/experience-images/logotipoTransparenteAdvocacia.png";
 
 export default function LawComponent() {
   return (

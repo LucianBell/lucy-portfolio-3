@@ -1,14 +1,14 @@
 import Image from "next/image";
-import UofAkronImage from "/public/University_of_Akron_Logo.png";
+import DaPazImage from "/public/education-images/Da_Paz_Logo.png";
 
 export default function LalaComponent() {
   return (
     <div>
-      <a href="https://www.uakron.edu/" target="_blank">
+      <a href="https://dapaz.com.br/home" target="_blank">
         <Image
           className=" items-center"
-          src={UofAkronImage}
-          alt="The University of Akron Logo"
+          src={DaPazImage}
+          alt="Instituto Sinodal Da Paz Logo"
           width={38}
           height={38}
         />

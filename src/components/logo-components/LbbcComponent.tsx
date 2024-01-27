@@ -1,5 +1,5 @@
 import Image from "next/image";
-import LBBCImage from "../../public/lbbc-cc-logo.png";
+import LBBCImage from "/public/experience-images/lbbc-cc-logo.png";
 
 export default function LalaComponent() {
   return (
