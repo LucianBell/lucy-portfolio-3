@@ -1,8 +1,8 @@
 import "./globals.css";
 
 export const metadata = {
-  title: "Lucian Bellini - Software Engineer",
-  description: "An amazing portfolio of an amazing developer",
+  title: "Lucian Bellini - Data Scientist",
+  description: "The portfolio of the only data scientist you need!",
   icons: {
     icon: "icon.ico",
   },

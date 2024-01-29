@@ -74,7 +74,7 @@ export default async function Articles() {
         <Header openSidebarClick={openSidebar} />
         <Sidebar open={sidebarOpened} onClose={closeSidebar} />
         <section className="  sm:mx-3 md:ml-64 md:my-6 smallmobile:mt-[80px] smallmobile:mx-2 smallmobile:my-3 lg:ml-72 lg:mr-30 xl:ml-80 xl:mr-32 my-10">
-          <div className=" my-10">
+          <div className=" mt-10 mb-5">
             <h2 className=" smallmobile:text-sm md:text-base xl:text-xl lg:text-lg text-second-title-gray">
               Read some of my...
             </h2>
@@ -88,7 +88,23 @@ export default async function Articles() {
             </div>
           </div>
 
-          <div className=" flex">{[content]}</div>
+          <section>
+            <h3
+              className={` smallmobile:text-3xl md:text-4xl lg:text-4xl xl:text-4xl ${playfair_display.variable} font-serif mb-8`}
+            >
+              Jovem Cientistas Brasil Articles
+            </h3>
+            <p className=" text-xl ml-4">Wait for more soon... ;D</p>
+            {/* <div className=" smallmobile:grid-cols-1 smallmobile:grid smallmobile:mx-3 sm:grid sm:grid-cols-2 sm:mx-4 lg:grid lg:grid-cols-3 xl:mr-2 xl:grid xl:grid-cols-3 xl:grid-rows-3 gap-4"></div> */}
+          </section>
+          <section>
+            <h3
+              className={` smallmobile:text-3xl md:text-4xl lg:text-4xl xl:text-4xl ${playfair_display.variable} font-serif my-8`}
+            >
+              My other articles
+            </h3>
+            <div className=" flex">{[content]}</div>
+          </section>
         </section>
       </div>
     </>
