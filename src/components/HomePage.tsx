@@ -1,19 +1,20 @@
-import { AiOutlineSmile, AiFillHtml5 } from "react-icons/ai";
-import { DiCss3 } from "react-icons/di";
 import {
-  SiJavascript,
-  SiTypescript,
-  SiSass,
-  SiExpress,
-  SiTailwindcss,
   SiSpring,
   SiMysql,
   SiPostgresql,
   SiMongodb,
   SiGit,
   SiGooglecloud,
+  SiNumpy,
+  SiJupyter,
+  SiPandas,
+  SiScikitlearn,
+  SiTensorflow,
+  SiPytorch,
+  SiStreamlit,
+  SiNextdotjs,
 } from "react-icons/si";
-import { FaReact, FaNode, FaJava } from "react-icons/fa";
+import { FaNode, FaPython } from "react-icons/fa";
 import { TbRobot } from "react-icons/tb";
 import { Playfair_Display } from "@next/font/google";
 
@@ -85,95 +86,65 @@ export default function HomePage() {
               <div className=" flex">
                 <li className=" xl: mr-2 mt-4">
                   <div className=" bg-color-gray py-4 border-2 rounded-md border-zinc-800 transition-transform duration-100 transform hover:-translate-y-2">
-                    <a
-                      href="https://developer.mozilla.org/pt-BR/docs/Web/HTML"
-                      target="_blank"
-                    >
-                      <AiFillHtml5 className="smallmobile:text-3xl lg:text-4xl xl:text-5xl mx-4" />
+                    <a href="https://www.python.org/" target="_blank">
+                      <FaPython className="smallmobile:text-3xl lg:text-4xl xl:text-5xl mx-4" />
+                    </a>
+                  </div>
+                </li>
+                <li className="xl: mr-2 mt-4">
+                  <div className="bg-color-gray py-4 border-2 rounded-md border-zinc-800 transition-transform duration-100 transform hover:-translate-y-2">
+                    <a href="https://numpy.org/" target="_blank">
+                      <SiNumpy className="smallmobile:text-3xl lg:text-4xl xl:text-5xl mx-4" />
+                    </a>
+                  </div>
+                </li>
+                <li className="xl: mr-2 mt-4">
+                  <div className="bg-color-gray py-4 border-2 rounded-md border-zinc-800 transition-transform duration-100 transform hover:-translate-y-2">
+                    <a href="https://jupyter.org/" target="_blank">
+                      <SiJupyter className="smallmobile:text-3xl lg:text-4xl xl:text-5xl mx-4" />
+                    </a>
+                  </div>
+                </li>
+                <li className="xl: mr-2 mt-4">
+                  <div className="bg-color-gray py-4 border-2 rounded-md border-zinc-800 transition-transform duration-100 transform hover:-translate-y-2">
+                    <a href="https://pandas.pydata.org/" target="_blank">
+                      <SiPandas className="smallmobile:text-3xl lg:text-4xl xl:text-5xl mx-4" />
+                    </a>
+                  </div>
+                </li>
+                <li className="xl: mr-2 mt-4">
+                  <div className="bg-color-gray py-4 border-2 rounded-md border-zinc-800 transition-transform duration-100 transform hover:-translate-y-2">
+                    <a href="https://scikit-learn.org/stable/" target="_blank">
+                      <SiScikitlearn className="smallmobile:text-3xl lg:text-4xl xl:text-5xl mx-4" />
                     </a>
                   </div>
                 </li>
                 <li className="xl: mr-2 mt-4">
                   <div className="bg-color-gray py-4 border-2 rounded-md border-zinc-800 transition-transform duration-100 transform hover:-translate-y-2">
                     <a
-                      href="https://developer.mozilla.org/pt-BR/docs/Web/CSS"
+                      href="https://www.tensorflow.org/?hl=pt-br"
                       target="_blank"
                     >
-                      <DiCss3 className="smallmobile:text-3xl lg:text-4xl xl:text-5xl mx-4" />
+                      <SiTensorflow className="smallmobile:text-3xl lg:text-4xl xl:text-5xl mx-4" />
                     </a>
                   </div>
                 </li>
                 <li className="xl: mr-2 mt-4">
                   <div className="bg-color-gray py-4 border-2 rounded-md border-zinc-800 transition-transform duration-100 transform hover:-translate-y-2">
-                    <a
-                      href="https://developer.mozilla.org/pt-BR/docs/Web/JavaScript"
-                      target="_blank"
-                    >
-                      <SiJavascript className="smallmobile:text-3xl lg:text-4xl xl:text-5xl mx-4" />
+                    <a href="https://pytorch.org/" target="_blank">
+                      <SiPytorch className="smallmobile:text-3xl lg:text-4xl xl:text-5xl mx-4" />
                     </a>
                   </div>
                 </li>
                 <li className="xl: mr-2 mt-4">
                   <div className="bg-color-gray py-4 border-2 rounded-md border-zinc-800 transition-transform duration-100 transform hover:-translate-y-2">
-                    <a href="https://sass-lang.com/" target="_blank">
-                      <SiSass className="smallmobile:text-3xl lg:text-4xl xl:text-5xl mx-4" />
-                    </a>
-                  </div>
-                </li>
-                <li className="xl: mr-2 mt-4">
-                  <div className="bg-color-gray py-4 border-2 rounded-md border-zinc-800 transition-transform duration-100 transform hover:-translate-y-2">
-                    <a href="https://tailwindcss.com/" target="_blank">
-                      <SiTailwindcss className="smallmobile:text-3xl lg:text-4xl xl:text-5xl mx-4" />
-                    </a>
-                  </div>
-                </li>
-                <li className="xl: mr-2 mt-4">
-                  <div className="bg-color-gray py-4 border-2 rounded-md border-zinc-800 transition-transform duration-100 transform hover:-translate-y-2">
-                    <a href="https://www.typescriptlang.org/" target="_blank">
-                      <SiTypescript className="smallmobile:text-3xl lg:text-4xl xl:text-5xl mx-4" />
-                    </a>
-                  </div>
-                </li>
-                <li className="xl: mr-2 mt-4">
-                  <div className="bg-color-gray py-4 border-2 rounded-md border-zinc-800 transition-transform duration-100 transform hover:-translate-y-2">
-                    <a href="https://react.dev/" target="_blank">
-                      <FaReact className="smallmobile:text-3xl lg:text-4xl xl:text-5xl mx-4" />
-                    </a>
-                  </div>
-                </li>
-                <li className="xl: mr-2 mt-4">
-                  <div className="bg-color-gray py-4 border-2 rounded-md border-zinc-800 transition-transform duration-100 transform hover:-translate-y-2">
-                    <a href="https://nodejs.org/en" target="_blank">
-                      <FaNode className="smallmobile:text-3xl lg:text-4xl xl:text-5xl mx-4" />
+                    <a href="https://streamlit.io/" target="_blank">
+                      <SiStreamlit className="smallmobile:text-3xl lg:text-4xl xl:text-5xl mx-4" />
                     </a>
                   </div>
                 </li>
               </div>
               <div className="flex">
-                <li className="xl: mr-2 mt-4">
-                  <div className="bg-color-gray py-4 border-2 rounded-md border-zinc-800 transition-transform duration-100 transform hover:-translate-y-2">
-                    <a href="https://expressjs.com/" target="_blank">
-                      <SiExpress className="smallmobile:text-3xl lg:text-4xl xl:text-5xl mx-4" />
-                    </a>
-                  </div>
-                </li>
-                <li className="xl: mr-2 mt-4">
-                  <div className="bg-color-gray py-4 border-2 rounded-md border-zinc-800 transition-transform duration-100 transform hover:-translate-y-2">
-                    <a
-                      href="https://developer.oracle.com/languages/java.html"
-                      target="_blank"
-                    >
-                      <FaJava className="smallmobile:text-3xl lg:text-4xl xl:text-5xl mx-4" />
-                    </a>
-                  </div>
-                </li>
-                <li className="xl: mr-2 mt-4">
-                  <div className="bg-color-gray py-4 border-2 rounded-md border-zinc-800 transition-transform duration-100 transform hover:-translate-y-2">
-                    <a href="https://spring.io/" target="_blank">
-                      <SiSpring className="smallmobile:text-3xl lg:text-4xl xl:text-5xl mx-4" />
-                    </a>
-                  </div>
-                </li>
                 <li className="xl: mr-2 mt-4">
                   <div className="bg-color-gray py-4 border-2 rounded-md border-zinc-800 transition-transform duration-100 transform hover:-translate-y-2">
                     <a href="https://www.mysql.com/" target="_blank">
@@ -192,6 +163,27 @@ export default function HomePage() {
                   <div className="bg-color-gray py-4 border-2 rounded-md border-zinc-800 transition-transform duration-100 transform hover:-translate-y-2">
                     <a href="https://www.mongodb.com/" target="_blank">
                       <SiMongodb className="smallmobile:text-3xl lg:text-4xl xl:text-5xl mx-4" />
+                    </a>
+                  </div>
+                </li>
+                <li className="xl: mr-2 mt-4">
+                  <div className="bg-color-gray py-4 border-2 rounded-md border-zinc-800 transition-transform duration-100 transform hover:-translate-y-2">
+                    <a href="https://spring.io/" target="_blank">
+                      <SiSpring className="smallmobile:text-3xl lg:text-4xl xl:text-5xl mx-4" />
+                    </a>
+                  </div>
+                </li>
+                <li className="xl: mr-2 mt-4">
+                  <div className="bg-color-gray py-4 border-2 rounded-md border-zinc-800 transition-transform duration-100 transform hover:-translate-y-2">
+                    <a href="https://nodejs.org/en" target="_blank">
+                      <FaNode className="smallmobile:text-3xl lg:text-4xl xl:text-5xl mx-4" />
+                    </a>
+                  </div>
+                </li>
+                <li className="xl: mr-2 mt-4">
+                  <div className="bg-color-gray py-4 border-2 rounded-md border-zinc-800 transition-transform duration-100 transform hover:-translate-y-2">
+                    <a href="https://nextjs.org/" target="_blank">
+                      <SiNextdotjs className="smallmobile:text-3xl lg:text-4xl xl:text-5xl mx-4" />
                     </a>
                   </div>
                 </li>

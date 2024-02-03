@@ -1,5 +1,6 @@
 "use client";
 
+import Image from "next/image";
 import { useState } from "react";
 import Sidebar from "@/components/Sidebar";
 import Header from "@/components/Header";
@@ -52,13 +53,10 @@ export default async function page() {
                     BeeInsightful Analytics - Pale Blue Dot Data Visualization
                   </h2>
                   <h3 className=" my-2">Made with:</h3>
-                  <p>languages</p>
+                  <p>Python - Streamlit - Jupyter Notebook - CookieCutter</p>
                   <div className=" flex mt-3">
-                    <Link className="" href="google.com" target="_blank">
+                    <Link className="" href="https://github.com/LucianBell/Data-Visualization-PaleBlueDot" target="_blank">
                       <AiFillGithub className=" text-3xl transition-all duration-150 hover:scale-110" />
-                    </Link>
-                    <Link href="google.com" target="_blank">
-                      <FaExternalLinkSquareAlt className=" text-3xl transition-all duration-150 hover:scale-110 ml-2" />
                     </Link>
                   </div>
                 </div>
@@ -67,14 +65,11 @@ export default async function page() {
               <div className=" bg-color-gray border border-color-light-gray rounded-lg">
                 <div className=""></div>
                 <div className=" p-6">
-                  <h2 className=" text-2xl">Title</h2>
+                  <h2 className=" text-2xl">TARS 2023 GeoAI Reimagined - Space Apps Challenge (Global Nominee)</h2>
                   <h3 className=" my-2">Made with:</h3>
-                  <p>languages</p>
+                  <p>Python - OpenCV - Numpy - Matplotlib - Meta&apos;s SAM - Google Earth Engine</p>
                   <div className=" flex mt-3">
-                    <Link className="" href="google.com" target="_blank">
-                      <AiFillGithub className=" text-3xl transition-all duration-150 hover:scale-110" />
-                    </Link>
-                    <Link href="google.com" target="_blank">
+                    <Link href="https://www.spaceappschallenge.org/2023/find-a-team/tars/?tab=project" target="_blank">
                       <FaExternalLinkSquareAlt className=" text-3xl transition-all duration-150 hover:scale-110 ml-2" />
                     </Link>
                   </div>
@@ -112,7 +107,7 @@ export default async function page() {
                 <div className=""></div>
                 <div className=" p-6">
                   <h2 className=" text-2xl">
-                    ETL Pipeline - Big Businesses Programing Languages
+                    ETL Pipeline - Businesses Programing Languages
                   </h2>
                   <h3 className=" my-2">Made with:</h3>
                   <p>Jupyter Notebook - Python - Requests</p>
@@ -135,6 +130,23 @@ export default async function page() {
                   </h2>
                   <h3 className=" my-2">Made with:</h3>
                   <p>Jupyter Notebook - Python - SQL</p>
+                  <div className=" flex mt-3">
+                    <Link className="" href="google.com" target="_blank">
+                      <AiFillGithub className=" text-3xl transition-all duration-150 hover:scale-110" />
+                    </Link>
+                    <Link href="google.com" target="_blank">
+                      <FaExternalLinkSquareAlt className=" text-3xl transition-all duration-150 hover:scale-110 ml-2" />
+                    </Link>
+                  </div>
+                </div>
+              </div>
+
+              <div className=" bg-color-gray border border-color-light-gray rounded-lg">
+                <div className=""></div>
+                <div className=" p-6">
+                  <h2 className=" text-2xl">Lil Wrench: Colonization Adventure (Pyxel-Game)</h2>
+                  <h3 className=" my-2">Made with:</h3>
+                  <p>Python - Pyxel</p>
                   <div className=" flex mt-3">
                     <Link className="" href="google.com" target="_blank">
                       <AiFillGithub className=" text-3xl transition-all duration-150 hover:scale-110" />
@@ -179,6 +191,100 @@ export default async function page() {
                   </div>
                 </div>
               </div>
+
+              <div className=" bg-color-gray border border-color-light-gray rounded-lg">
+                <div className=""></div>
+                <div className=" p-6">
+                  <h2 className=" text-2xl">Data Pipeline - Company Merge</h2>
+                  <h3 className=" my-2">Made with:</h3>
+                  <p>Python - Jupyter Notebook - CSV - JSON</p>
+                  <div className=" flex mt-3">
+                    <Link className="" href="https://github.com/LucianBell/DataPipeline-MakeupMerging" target="_blank">
+                      <AiFillGithub className=" text-3xl transition-all duration-150 hover:scale-110" />
+                    </Link>
+                  </div>
+                </div>
+              </div>
+
+              <div className=" bg-color-gray border border-color-light-gray rounded-lg">
+                <div className="">
+                <Image
+                    src="/project-images/guessingGameC.png"
+                    alt="Lucian Bellini"
+                    width={420}
+                    height={120}
+                    className=" rounded-lg transition-all duration-120 grayscale hover:grayscale-0"
+                  />
+                </div>
+                <div className=" p-6 pt-2">
+                  <h2 className=" text-2xl">Lucy&apos;s Guessing Game</h2>
+                  <h3 className=" my-2">Made with:</h3>
+                  <p>C</p>
+                  <div className=" flex mt-3">
+                    <Link className="" href="https://github.com/LucianBell/LucysGuessingGame-C" target="_blank">
+                      <AiFillGithub className=" text-3xl transition-all duration-150 hover:scale-110" />
+                    </Link>
+                  </div>
+                </div>
+              </div>
+
+              <div className=" bg-color-gray border border-color-light-gray rounded-lg">
+                <div className=""></div>
+                <div className=" p-6">
+                  <h2 className=" text-2xl">Programming Languages II - OOP</h2>
+                  <h3 className=" my-2">Made with:</h3>
+                  <p>Python</p>
+                  <div className=" flex mt-3">
+                    <Link className="" href="https://github.com/LucianBell/Linguagem-de-Progr-II" target="_blank">
+                      <AiFillGithub className=" text-3xl transition-all duration-150 hover:scale-110" />
+                    </Link>
+                  </div>
+                </div>
+              </div>
+
+              <div className=" bg-color-gray border border-color-light-gray rounded-lg">
+                <div className=""></div>
+                <div className=" p-6">
+                  <h2 className=" text-2xl">Programming Languages I - Structural Paradigm</h2>
+                  <h3 className=" my-2">Made with:</h3>
+                  <p>C</p>
+                  <div className=" flex mt-3">
+                    <Link className="" href="https://github.com/LucianBell/Linguagem-de-Progr-I" target="_blank">
+                      <AiFillGithub className=" text-3xl transition-all duration-150 hover:scale-110" />
+                    </Link>
+                  </div>
+                </div>
+              </div>
+
+              <div className=" bg-color-gray border border-color-light-gray rounded-lg">
+                <div className=""></div>
+                <div className=" p-6">
+                  <h2 className=" text-2xl">Algorithms and Data Structures I</h2>
+                  <h3 className=" my-2">Made with:</h3>
+                  <p>C - JavaScript</p>
+                  <div className=" flex mt-3">
+                    <Link className="" href="https://github.com/LucianBell/Algoritmo-E-Estrutura-De-Dados-I" target="_blank">
+                      <AiFillGithub className=" text-3xl transition-all duration-150 hover:scale-110" />
+                    </Link>
+                  </div>
+                </div>
+              </div>
+
+              <div className=" bg-color-gray border border-color-light-gray rounded-lg">
+                <div className=""></div>
+                <div className=" p-6">
+                  <h2 className=" text-2xl">Daily Dev Motivational</h2>
+                  <h3 className=" my-2">Made with:</h3>
+                  <p>Spring - Java - React - Typescript - SQL - TailwindCSS</p>
+                  <div className=" flex mt-3">
+                    <Link className="" href="https://github.com/LucianBell/Daily-Dev-Motivational" target="_blank">
+                      <AiFillGithub className=" text-3xl transition-all duration-150 hover:scale-110" />
+                    </Link>
+                  </div>
+                </div>
+              </div>
+
+
             </div>
           </section>
         </section>

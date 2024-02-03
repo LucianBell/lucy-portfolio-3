@@ -1,5 +1,4 @@
 import Image from "next/image";
-import { GrClose } from "react-icons/gr";
 import { GiCheckMark } from "react-icons/gi";
 import { AiFillRocket, AiFillHome } from "react-icons/ai";
 import { SiNounproject } from "react-icons/si";
@@ -53,7 +52,7 @@ export default function Sidebar({ open, onClose }: props) {
                   target="_blank"
                 >
                   <Image
-                    src="/myPhoto.png"
+                    src="/lucian-images/myPhoto.png"
                     alt="Lucian Bellini"
                     width={60}
                     height={60}
