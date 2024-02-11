@@ -48,7 +48,16 @@ export default async function page() {
 
             <div className=" smallmobile:grid-cols-1 smallmobile:grid smallmobile:mx-3 sm:grid sm:grid-cols-2 sm:mx-4 lg:grid lg:grid-cols-3 xl:mr-2 xl:grid xl:grid-cols-3 gap-4">
               <div className=" bg-color-gray border border-color-light-gray rounded-lg">
-                <div className=" p-6">
+                <div>
+                <Image
+                    src="/project-images/paleBlueDotImage.png"
+                    alt="Lucian Bellini"
+                    width={420}
+                    height={120}
+                    className=" rounded-lg transition-all duration-120 grayscale hover:grayscale-0"
+                  />
+                </div>
+                <div className=" p-6 pt-2">
                   <h2 className=" text-2xl">
                     BeeInsightful Analytics - Pale Blue Dot Data Visualization
                   </h2>
@@ -63,7 +72,15 @@ export default async function page() {
               </div>
 
               <div className=" bg-color-gray border border-color-light-gray rounded-lg">
-                <div className=""></div>
+              <div className="">
+                <Image
+                    src="/project-images/nasaSAC23.png"
+                    alt="Lucian Bellini"
+                    width={420}
+                    height={120}
+                    className=" rounded-lg transition-all duration-120 grayscale hover:grayscale-0"
+                  />
+                </div>
                 <div className=" p-6">
                   <h2 className=" text-2xl">TARS 2023 GeoAI Reimagined - Space Apps Challenge (Global Nominee)</h2>
                   <h3 className=" my-2">Made with:</h3>
@@ -87,11 +104,19 @@ export default async function page() {
 
             <div className=" smallmobile:grid-cols-1 smallmobile:grid smallmobile:mx-3 sm:grid sm:grid-cols-2 sm:mx-4 lg:grid lg:grid-cols-3 xl:mr-2 xl:grid xl:grid-cols-3 gap-4">
               <div className=" bg-color-gray border border-color-light-gray rounded-lg">
-                <div className=""></div>
-                <div className=" p-6">
+              <div>
+                <Image
+                    src="/project-images/nextflowRNASeq.png"
+                    alt="Lucian Bellini"
+                    width={420}
+                    height={120}
+                    className=" rounded-lg transition-all duration-120 grayscale hover:grayscale-0"
+                  />
+                </div>
+                <div className=" p-6 pt-2">
                   <h2 className=" text-2xl">RNASeq Workflow</h2>
                   <h3 className=" my-2">Made with:</h3>
-                  <p>Nextflow - Python - Shell - Groovy</p>
+                  <p>Nextflow - Python - Shell - FastQC - MultiQC - Salmon - STAR</p>
                   <div className=" flex mt-3">
                     <Link className="" href="google.com" target="_blank">
                       <AiFillGithub className=" text-3xl transition-all duration-150 hover:scale-110" />
@@ -142,6 +167,31 @@ export default async function page() {
               </div>
 
               <div className=" bg-color-gray border border-color-light-gray rounded-lg">
+              <div>
+                <Image
+                    src="/project-images/movieLens.png"
+                    alt="Lucian Bellini"
+                    width={420}
+                    height={120}
+                    className=" rounded-lg transition-all duration-120 grayscale hover:grayscale-0"
+                  />
+                </div>
+                <div className=" p-6 pt-2">
+                  <h2 className=" text-2xl">MovieLens Analysis and Visualization</h2>
+                  <h3 className=" my-2">Made with:</h3>
+                  <p>Python - Jupyter Notebook - Pandas - Seaborn</p>
+                  <div className=" flex mt-3">
+                    <Link className="" href="google.com" target="_blank">
+                      <AiFillGithub className=" text-3xl transition-all duration-150 hover:scale-110" />
+                    </Link>
+                    <Link href="google.com" target="_blank">
+                      <FaExternalLinkSquareAlt className=" text-3xl transition-all duration-150 hover:scale-110 ml-2" />
+                    </Link>
+                  </div>
+                </div>
+              </div>
+
+              <div className=" bg-color-gray border border-color-light-gray rounded-lg">
                 <div className=""></div>
                 <div className=" p-6">
                   <h2 className=" text-2xl">Lil Wrench: Colonization Adventure (Pyxel-Game)</h2>
@@ -159,26 +209,8 @@ export default async function page() {
               </div>
 
               <div className=" bg-color-gray border border-color-light-gray rounded-lg">
-                <div className=""></div>
-                <div className=" p-6">
+                <div className=" p-6 pt-2">
                   <h2 className=" text-2xl">Histórias Não Contadas Website</h2>
-                  <h3 className=" my-2">Made with:</h3>
-                  <p>NextJS - React - Typescript - TailwindCSS</p>
-                  <div className=" flex mt-3">
-                    <Link className="" href="google.com" target="_blank">
-                      <AiFillGithub className=" text-3xl transition-all duration-150 hover:scale-110" />
-                    </Link>
-                    <Link href="google.com" target="_blank">
-                      <FaExternalLinkSquareAlt className=" text-3xl transition-all duration-150 hover:scale-110 ml-2" />
-                    </Link>
-                  </div>
-                </div>
-              </div>
-
-              <div className=" bg-color-gray border border-color-light-gray rounded-lg">
-                <div className=""></div>
-                <div className=" p-6">
-                  <h2 className=" text-2xl">My Own Professional Portfolio</h2>
                   <h3 className=" my-2">Made with:</h3>
                   <p>NextJS - React - Typescript - TailwindCSS</p>
                   <div className=" flex mt-3">
