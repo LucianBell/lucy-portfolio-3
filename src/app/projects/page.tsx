@@ -107,60 +107,89 @@ export default async function page() {
               <div>
                 <Image
                     src="/project-images/nextflowRNASeq.png"
-                    alt="Lucian Bellini"
+                    alt="Nextflow RNA-Seq Project"
                     width={420}
                     height={120}
                     className=" rounded-lg transition-all duration-120 grayscale hover:grayscale-0"
                   />
                 </div>
                 <div className=" p-6 pt-2">
-                  <h2 className=" text-2xl">RNASeq Workflow</h2>
+                  <h2 className=" text-2xl">RNASeq Workflow - Nextflow</h2>
                   <h3 className=" my-2">Made with:</h3>
                   <p>Nextflow - Python - Shell - FastQC - MultiQC - Salmon - STAR</p>
                   <div className=" flex mt-3">
-                    <Link className="" href="google.com" target="_blank">
+                    <Link className="" href="https://github.com/LucianBell/Nextflow-RNASeq-Test" target="_blank">
                       <AiFillGithub className=" text-3xl transition-all duration-150 hover:scale-110" />
-                    </Link>
-                    <Link href="google.com" target="_blank">
-                      <FaExternalLinkSquareAlt className=" text-3xl transition-all duration-150 hover:scale-110 ml-2" />
                     </Link>
                   </div>
                 </div>
               </div>
 
               <div className=" bg-color-gray border border-color-light-gray rounded-lg">
-                <div className=""></div>
-                <div className=" p-6">
+              <div>
+                <Image
+                    src="/project-images/etlProgrammingLanguages.png"
+                    alt="Nextflow RNA-Seq Project"
+                    width={420}
+                    height={120}
+                    className=" rounded-lg transition-all duration-120 grayscale hover:grayscale-0"
+                  />
+                </div>
+                <div className=" p-6 pt-2">
                   <h2 className=" text-2xl">
                     ETL Pipeline - Businesses Programing Languages
                   </h2>
                   <h3 className=" my-2">Made with:</h3>
-                  <p>Jupyter Notebook - Python - Requests</p>
+                  <p>Python - Jupyter Notebook - Pandas - Requests - CSV</p>
                   <div className=" flex mt-3">
-                    <Link className="" href="google.com" target="_blank">
+                    <Link className="" href="https://github.com/LucianBell/programming-languages-analysis" target="_blank">
                       <AiFillGithub className=" text-3xl transition-all duration-150 hover:scale-110" />
-                    </Link>
-                    <Link href="google.com" target="_blank">
-                      <FaExternalLinkSquareAlt className=" text-3xl transition-all duration-150 hover:scale-110 ml-2" />
                     </Link>
                   </div>
                 </div>
               </div>
 
               <div className=" bg-color-gray border border-color-light-gray rounded-lg">
-                <div className=""></div>
-                <div className=" p-6">
+              <div>
+                <Image
+                    src="/project-images/etlMusicService.png"
+                    alt="Nextflow RNA-Seq Project"
+                    width={420}
+                    height={120}
+                    className=" rounded-lg transition-all duration-120 grayscale hover:grayscale-0"
+                  />
+                </div>
+                <div className=" p-6 pt-2">
                   <h2 className=" text-2xl">
                     ETL Pipeline - Analyzing a Music Service
                   </h2>
                   <h3 className=" my-2">Made with:</h3>
-                  <p>Jupyter Notebook - Python - SQL</p>
+                  <p>Python - Jupyter Notebook - SQL - SQLite3 - Numpy - Pandas - JSON</p>
                   <div className=" flex mt-3">
-                    <Link className="" href="google.com" target="_blank">
+                    <Link className="" href="https://github.com/LucianBell/Pipeline-ELT-MusicService" target="_blank">
                       <AiFillGithub className=" text-3xl transition-all duration-150 hover:scale-110" />
                     </Link>
-                    <Link href="google.com" target="_blank">
-                      <FaExternalLinkSquareAlt className=" text-3xl transition-all duration-150 hover:scale-110 ml-2" />
+                  </div>
+                </div>
+              </div>
+
+              <div className=" bg-color-gray border border-color-light-gray rounded-lg">
+              <div>
+                <Image
+                    src="/project-images/companyPipeline.png"
+                    alt="Nextflow RNA-Seq Project"
+                    width={420}
+                    height={120}
+                    className=" rounded-lg transition-all duration-120 grayscale hover:grayscale-0"
+                  />
+                </div>
+                <div className=" p-6 pt-2">
+                  <h2 className=" text-2xl">Data Pipeline - Company Merge</h2>
+                  <h3 className=" my-2">Made with:</h3>
+                  <p>Python - Jupyter Notebook - CSV - JSON</p>
+                  <div className=" flex mt-3">
+                    <Link className="" href="https://github.com/LucianBell/DataPipeline-MakeupMerging" target="_blank">
+                      <AiFillGithub className=" text-3xl transition-all duration-150 hover:scale-110" />
                     </Link>
                   </div>
                 </div>
@@ -179,13 +208,10 @@ export default async function page() {
                 <div className=" p-6 pt-2">
                   <h2 className=" text-2xl">MovieLens Analysis and Visualization</h2>
                   <h3 className=" my-2">Made with:</h3>
-                  <p>Python - Jupyter Notebook - Pandas - Seaborn</p>
+                  <p>Jupyter Notebook - Pandas - Seaborn</p>
                   <div className=" flex mt-3">
-                    <Link className="" href="google.com" target="_blank">
+                    <Link className="" href="https://github.com/LucianBell/MovieLens_Analysis_Visualization" target="_blank">
                       <AiFillGithub className=" text-3xl transition-all duration-150 hover:scale-110" />
-                    </Link>
-                    <Link href="google.com" target="_blank">
-                      <FaExternalLinkSquareAlt className=" text-3xl transition-all duration-150 hover:scale-110 ml-2" />
                     </Link>
                   </div>
                 </div>
@@ -198,41 +224,30 @@ export default async function page() {
                   <h3 className=" my-2">Made with:</h3>
                   <p>Python - Pyxel</p>
                   <div className=" flex mt-3">
-                    <Link className="" href="google.com" target="_blank">
+                    <Link className="" href="https://github.com/LucianBell/Lil-Wrench-Colonization-Adventure_Pyxel-Game" target="_blank">
                       <AiFillGithub className=" text-3xl transition-all duration-150 hover:scale-110" />
-                    </Link>
-                    <Link href="google.com" target="_blank">
-                      <FaExternalLinkSquareAlt className=" text-3xl transition-all duration-150 hover:scale-110 ml-2" />
                     </Link>
                   </div>
                 </div>
               </div>
 
               <div className=" bg-color-gray border border-color-light-gray rounded-lg">
+              <div>
+                <Image
+                    src="/project-images/historiasNaoContadas.png"
+                    alt="Lucian Bellini"
+                    width={420}
+                    height={120}
+                    className=" rounded-lg transition-all duration-120 grayscale hover:grayscale-0"
+                  />
+                </div>
                 <div className=" p-6 pt-2">
-                  <h2 className=" text-2xl">Histórias Não Contadas Website</h2>
+                  <h2 className=" text-2xl">Histórias Não Contadas</h2>
                   <h3 className=" my-2">Made with:</h3>
                   <p>NextJS - React - Typescript - TailwindCSS</p>
                   <div className=" flex mt-3">
-                    <Link className="" href="google.com" target="_blank">
-                      <AiFillGithub className=" text-3xl transition-all duration-150 hover:scale-110" />
-                    </Link>
-                    <Link href="google.com" target="_blank">
+                    <Link href="https://historias-nao-contadas.vercel.app/" target="_blank">
                       <FaExternalLinkSquareAlt className=" text-3xl transition-all duration-150 hover:scale-110 ml-2" />
-                    </Link>
-                  </div>
-                </div>
-              </div>
-
-              <div className=" bg-color-gray border border-color-light-gray rounded-lg">
-                <div className=""></div>
-                <div className=" p-6">
-                  <h2 className=" text-2xl">Data Pipeline - Company Merge</h2>
-                  <h3 className=" my-2">Made with:</h3>
-                  <p>Python - Jupyter Notebook - CSV - JSON</p>
-                  <div className=" flex mt-3">
-                    <Link className="" href="https://github.com/LucianBell/DataPipeline-MakeupMerging" target="_blank">
-                      <AiFillGithub className=" text-3xl transition-all duration-150 hover:scale-110" />
                     </Link>
                   </div>
                 </div>
@@ -241,7 +256,7 @@ export default async function page() {
               <div className=" bg-color-gray border border-color-light-gray rounded-lg">
                 <div className="">
                 <Image
-                    src="/project-images/guessingGameC.png"
+                    src="/project-images/theGuessingGameC.png"
                     alt="Lucian Bellini"
                     width={420}
                     height={120}
@@ -261,9 +276,17 @@ export default async function page() {
               </div>
 
               <div className=" bg-color-gray border border-color-light-gray rounded-lg">
-                <div className=""></div>
-                <div className=" p-6">
-                  <h2 className=" text-2xl">Programming Languages II - OOP</h2>
+              <div>
+                <Image
+                    src="/project-images/programmingLangsII.png"
+                    alt="Nextflow RNA-Seq Project"
+                    width={420}
+                    height={120}
+                    className=" rounded-lg transition-all duration-120 grayscale hover:grayscale-0"
+                  />
+                </div>
+                <div className=" p-6 pt-2">
+                  <h2 className=" text-2xl">PL II - OOP</h2>
                   <h3 className=" my-2">Made with:</h3>
                   <p>Python</p>
                   <div className=" flex mt-3">
@@ -275,8 +298,16 @@ export default async function page() {
               </div>
 
               <div className=" bg-color-gray border border-color-light-gray rounded-lg">
-                <div className=""></div>
-                <div className=" p-6">
+              <div>
+                <Image
+                    src="/project-images/programmingLangsI.png"
+                    alt="Nextflow RNA-Seq Project"
+                    width={420}
+                    height={120}
+                    className=" rounded-lg transition-all duration-120 grayscale hover:grayscale-0"
+                  />
+                </div>
+                <div className=" p-6 pt-2">
                   <h2 className=" text-2xl">Programming Languages I - Structural Paradigm</h2>
                   <h3 className=" my-2">Made with:</h3>
                   <p>C</p>
@@ -289,8 +320,16 @@ export default async function page() {
               </div>
 
               <div className=" bg-color-gray border border-color-light-gray rounded-lg">
-                <div className=""></div>
-                <div className=" p-6">
+              <div>
+                <Image
+                    src="/project-images/algosAndDataStructures.png"
+                    alt="Nextflow RNA-Seq Project"
+                    width={420}
+                    height={120}
+                    className=" rounded-lg transition-all duration-120 grayscale hover:grayscale-0"
+                  />
+                </div>
+                <div className=" p-6 pt-2">
                   <h2 className=" text-2xl">Algorithms and Data Structures I</h2>
                   <h3 className=" my-2">Made with:</h3>
                   <p>C - JavaScript</p>
@@ -305,9 +344,9 @@ export default async function page() {
               <div className=" bg-color-gray border border-color-light-gray rounded-lg">
                 <div className=""></div>
                 <div className=" p-6">
-                  <h2 className=" text-2xl">Daily Dev Motivational</h2>
+                  <h2 className=" text-2xl">Daily Dev Motivational - Java Application</h2>
                   <h3 className=" my-2">Made with:</h3>
-                  <p>Spring - Java - React - Typescript - SQL - TailwindCSS</p>
+                  <p>Spring - SQL - React - Typescript</p>
                   <div className=" flex mt-3">
                     <Link className="" href="https://github.com/LucianBell/Daily-Dev-Motivational" target="_blank">
                       <AiFillGithub className=" text-3xl transition-all duration-150 hover:scale-110" />
