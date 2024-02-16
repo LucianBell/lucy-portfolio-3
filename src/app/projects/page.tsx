@@ -218,8 +218,16 @@ export default async function page() {
               </div>
 
               <div className=" bg-color-gray border border-color-light-gray rounded-lg">
-                <div className=""></div>
-                <div className=" p-6">
+              <div>
+                <Image
+                    src="/project-images/lilWrenchOfc.png"
+                    alt="lilWrench Project Logo"
+                    width={420}
+                    height={120}
+                    className=" rounded-lg transition-all duration-120 grayscale hover:grayscale-0"
+                  />
+                </div>
+                <div className=" p-6 pt-2">
                   <h2 className=" text-2xl">Lil Wrench: Colonization Adventure (Pyxel-Game)</h2>
                   <h3 className=" my-2">Made with:</h3>
                   <p>Python - Pyxel</p>
@@ -342,8 +350,16 @@ export default async function page() {
               </div>
 
               <div className=" bg-color-gray border border-color-light-gray rounded-lg">
-                <div className=""></div>
-                <div className=" p-6">
+              <div>
+                <Image
+                    src="/project-images/captest.png"
+                    alt="Nextflow RNA-Seq Project"
+                    width={420}
+                    height={120}
+                    className=" rounded-lg transition-all duration-120 grayscale hover:grayscale-0"
+                  />
+                </div>
+                <div className=" p-6 pt-2">
                   <h2 className=" text-2xl">Daily Dev Motivational - Java Application</h2>
                   <h3 className=" my-2">Made with:</h3>
                   <p>Spring - SQL - React - Typescript</p>
