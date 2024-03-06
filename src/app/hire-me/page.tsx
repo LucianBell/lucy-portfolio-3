@@ -24,7 +24,7 @@ const playfair_display: any = Playfair_Display({
   variable: "--font-playfair",
 });
 
-export default function page() {
+export default function HireME() {
   const [sidebarOpened, setSidebarOpened] = useState(false);
 
   const openSidebar = () => setSidebarOpened(true);
