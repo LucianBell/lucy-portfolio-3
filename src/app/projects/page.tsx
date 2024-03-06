@@ -15,7 +15,7 @@ const playfair_display: any = Playfair_Display({
   variable: "--font-playfair",
 });
 
-export default async function page() {
+export default async function Projects() {
   const [sidebarOpened, setSidebarOpened] = useState(false);
 
   const openSidebar = () => setSidebarOpened(true);
