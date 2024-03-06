@@ -63,7 +63,7 @@ export default function Experience() {
                 Data Intern
               </h3>
               <h4 className="vertical-timeline-element-subtitle italic text-second-title-gray">
-                Laboratório de Bioinformática e Biologia Computacional (LLBC) |
+                Laboratório de Bioinformática e Biologia Computacional (LBBC) |
                 Rio de Janeiro - Brazil (Remotely)
               </h4>
               <p>
