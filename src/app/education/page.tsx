@@ -65,9 +65,10 @@ export default function Education() {
               <h4 className="vertical-timeline-element-subtitle italic text-second-title-gray">
                 Computer Science Degree
               </h4>
+              <p>GPA: 9.4/10 &#40;Top 3 on class rank&#41;</p>
               <h5 className=" font-bold mt-1">Activities</h5>
               <ul className=" list-disc ml-1">
-                <li>Coming soon ;D</li>
+                <li>Mosaico Research Group - Computational Modeling and Simulation Group &#40;Data science and machine learning focused group&#41;</li>
               </ul>
             </VerticalTimelineElement>
             <VerticalTimelineElement
